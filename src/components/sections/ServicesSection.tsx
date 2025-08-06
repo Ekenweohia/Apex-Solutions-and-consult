@@ -9,7 +9,7 @@ const services = [
     title: 'Enterprise Software Development',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
     image: {
-      src: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
+      src: "https://cdn.pixabay.com/photo/2024/04/15/07/04/computer-8779040_1280.jpg",
       alt: "Enterprise Software Development",
       aiHint: "enterprise software"
     }
@@ -19,7 +19,7 @@ const services = [
     title: 'Mobile App development',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
     image: {
-        src: "https://cdn.pixabay.com/photo/2021/05/04/13/29/mobile-6228716_1280.jpg",
+        src: "https://cdn.pixabay.com/photo/2018/11/28/11/03/coffee-3843382_1280.jpg",
         alt: "Mobile App Development",
         aiHint: "mobile development"
     }
