@@ -4,12 +4,12 @@ export default function HeroSection() {
   return (
     <section className="relative w-full h-[60vh] min-h-[500px] flex items-center justify-center text-center text-white">
       <Image
-        src="https://placehold.co/1920x1080.png"
-        alt="Background"
+        src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1920"
+        alt="Woman in black top using Surface laptop"
         fill
         style={{ objectFit: 'cover' }}
         className="brightness-50"
-        data-ai-hint="code editor"
+        data-ai-hint="woman coding"
         priority
       />
       <div className="relative z-10 p-4 max-w-4xl animate-fade-in-up">
