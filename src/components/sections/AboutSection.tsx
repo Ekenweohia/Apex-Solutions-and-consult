@@ -44,14 +44,30 @@ export default function AboutSection() {
               </Card>
             </div>
           </div>
-          <div className="space-y-4">
+          <div className="grid grid-cols-2 gap-4">
             <Image 
               src="https://placehold.co/600x400.png"
               alt="Team working on code"
               width={600}
               height={400}
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg col-span-2"
               data-ai-hint="code editor"
+            />
+             <Image 
+              src="https://placehold.co/300x200.png"
+              alt="Close up of code on a screen"
+              width={300}
+              height={200}
+              className="rounded-lg shadow-lg"
+              data-ai-hint="code screen"
+            />
+             <Image 
+              src="https://placehold.co/300x200.png"
+              alt="Team collaborating around a laptop"
+              width={300}
+              height={200}
+              className="rounded-lg shadow-lg"
+              data-ai-hint="collaboration meeting"
             />
           </div>
         </div>

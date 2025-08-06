@@ -9,6 +9,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { useState } from 'react';
+import { ThemeToggle } from '../theme-toggle';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -43,6 +44,7 @@ export default function Header() {
               </Link>
             ))}
           </nav>
+          <ThemeToggle />
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" className="md:hidden">
