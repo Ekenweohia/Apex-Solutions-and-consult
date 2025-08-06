@@ -8,31 +8,61 @@ const services = [
     icon: <Briefcase className="h-10 w-10 text-primary" />,
     title: 'Enterprise Software Development',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    image: {
+      src: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
+      alt: "Enterprise Software Development",
+      aiHint: "enterprise software"
+    }
   },
   {
     icon: <Smartphone className="h-10 w-10 text-primary" />,
     title: 'Mobile App development',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    image: {
+        src: "https://cdn.pixabay.com/photo/2021/05/04/13/29/mobile-6228716_1280.jpg",
+        alt: "Mobile App Development",
+        aiHint: "mobile development"
+    }
   },
   {
     icon: <LineChart className="h-10 w-10 text-primary" />,
     title: 'IT Consulting',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    image: {
+        src: "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg",
+        alt: "IT Consulting",
+        aiHint: "it consulting"
+    }
   },
     {
     icon: <Code className="h-10 w-10 text-primary" />,
     title: 'Dedicated Development Team',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    image: {
+        src: "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_1280.jpg",
+        alt: "Dedicated Development Team",
+        aiHint: "development team"
+    }
   },
   {
     icon: <Milestone className="h-10 w-10 text-primary" />,
     title: 'UX / UI Design',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    image: {
+        src: "https://cdn.pixabay.com/photo/2015/05/28/14/53/ux-788002_1280.jpg",
+        alt: "UX / UI Design",
+        aiHint: "ui design"
+    }
   },
   {
     icon: <Cpu className="h-10 w-10 text-primary" />,
     title: 'QA & Testing',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    image: {
+        src: "https://cdn.pixabay.com/photo/2021/09/07/07/03/robot-6602742_1280.jpg",
+        alt: "QA & Testing",
+        aiHint: "quality assurance"
+    }
   },
 ];
 
@@ -87,12 +117,12 @@ export default function ServicesSection() {
                     </CardContent>
                     <CardFooter>
                          <Image 
-                            src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=600"
-                            alt="Woman in black top using Surface laptop"
+                            src={service.image.src}
+                            alt={service.image.alt}
                             width={600}
                             height={400}
                             className="rounded-lg shadow-lg"
-                            data-ai-hint="woman coding"
+                            data-ai-hint={service.image.aiHint}
                         />
                     </CardFooter>
                     </Card>
