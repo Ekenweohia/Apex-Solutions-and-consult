@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone } from 'lucide-react';
+import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot } from 'lucide-react';
 import Image from 'next/image';
 
 const services = [
@@ -36,12 +36,25 @@ const services = [
   },
 ];
 
-const PlaceholderContent = ({title}: {title: string}) => (
-    <div className="text-center text-muted-foreground py-16">
-        <p>Content for {title} coming soon.</p>
-    </div>
-)
+const technologies = [
+    { name: 'React', description: 'Modern frontend library for UI development.' },
+    { name: 'Next.js', description: 'The React framework for production.' },
+    { name: 'Node.js', description: 'JavaScript runtime for backend services.' },
+    { name: 'Python', description: 'Versatile language for AI, and web.' },
+    { name: 'TypeScript', description: 'JavaScript with syntax for types.' },
+    { name: 'PostgreSQL', description: 'A powerful, open source object-relational database system.' },
+    { name: 'Docker', description: 'Containerization platform for building and running applications.' },
+    { name: 'AWS', description: 'Comprehensive and broadly adopted cloud platform.' },
+];
 
+const industries = [
+    { icon: <Building className="h-8 w-8 text-primary" />, name: 'FinTech', description: 'Secure and scalable financial solutions.' },
+    { icon: <HeartPulse className="h-8 w-8 text-primary" />, name: 'Healthcare', description: 'HIPAA-compliant software for the medical field.' },
+    { icon: <ShoppingCart className="h-8 w-8 text-primary" />, name: 'E-commerce', description: 'Engaging and high-conversion online stores.' },
+    { icon: <GraduationCap className="h-8 w-8 text-primary" />, name: 'EdTech', description: 'Innovative platforms for modern learning.' },
+    { icon: <LandPlot className="h-8 w-8 text-primary" />, name: 'Real Estate', description: 'Solutions for property management and sales.' },
+    { icon: <Bot className="h-8 w-8 text-primary" />, name: 'AI Solutions', description: 'Integrating AI to automate and innovate.' },
+];
 
 export default function ServicesSection() {
   return (
@@ -54,9 +67,9 @@ export default function ServicesSection() {
         </div>
         <Tabs defaultValue="service" className="mt-8">
             <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto">
-                <TabsTrigger value="service">service</TabsTrigger>
-                <TabsTrigger value="technology">technology</TabsTrigger>
-                <TabsTrigger value="industry">industry</TabsTrigger>
+                <TabsTrigger value="service">Service</TabsTrigger>
+                <TabsTrigger value="technology">Technology</TabsTrigger>
+                <TabsTrigger value="industry">Industry</TabsTrigger>
             </TabsList>
             <TabsContent value="service">
                 <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -86,8 +99,35 @@ export default function ServicesSection() {
                 ))}
                 </div>
             </TabsContent>
-            <TabsContent value="technology"><PlaceholderContent title="Technology" /></TabsContent>
-            <TabsContent value="industry"><PlaceholderContent title="Industry" /></TabsContent>
+            <TabsContent value="technology">
+                <div className="py-12">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                        {technologies.map((tech) => (
+                            <Card key={tech.name} className="text-center">
+                                <CardHeader>
+                                    <CardTitle className="font-headline">{tech.name}</CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    <p className="text-muted-foreground">{tech.description}</p>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </div>
+                </div>
+            </TabsContent>
+            <TabsContent value="industry">
+                <div className="py-12">
+                     <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+                        {industries.map((industry) => (
+                            <Card key={industry.name} className="flex flex-col items-center justify-center text-center p-6">
+                                <div className="mb-4">{industry.icon}</div>
+                                <h3 className="text-lg font-bold font-headline">{industry.name}</h3>
+                                <p className="text-muted-foreground mt-2">{industry.description}</p>
+                            </Card>
+                        ))}
+                    </div>
+                </div>
+            </TabsContent>
         </Tabs>
 
         <div className="mt-24 text-center max-w-2xl mx-auto">
