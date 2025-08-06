@@ -46,12 +46,12 @@ export default function AboutSection() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <Image 
-              src="https://placehold.co/600x400.png"
+              src="https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg"
               alt="Team working on code"
               width={600}
               height={400}
               className="rounded-lg shadow-lg col-span-2"
-              data-ai-hint="code editor"
+              data-ai-hint="planning project"
             />
           </div>
         </div>
