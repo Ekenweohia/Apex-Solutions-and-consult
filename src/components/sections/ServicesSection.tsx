@@ -121,7 +121,7 @@ export default function ServicesSection() {
                             alt={service.image.alt}
                             width={1280}
                             height={720}
-                            className="rounded-lg shadow-lg w-full h-auto"
+                            className="rounded-lg shadow-lg w-full h-auto object-cover aspect-video"
                             data-ai-hint={service.image.aiHint}
                         />
                     </CardFooter>
