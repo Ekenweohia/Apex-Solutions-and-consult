@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
+import Image from "next/image";
 
 export default function AboutSection() {
   return (
@@ -18,41 +19,40 @@ export default function AboutSection() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
               pariatur.
             </p>
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Card>
+                <CardContent className="p-4 flex items-center gap-4">
+                  <CheckCircle className="h-8 w-8 text-primary" />
+                  <div>
+                    <h3 className="font-bold">WE BUILD WIREFRAME</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-4 flex items-center gap-4">
+                  <CheckCircle className="h-8 w-8 text-primary" />
+                  <div>
+                    <h3 className="font-bold">WE BUILD UI/UX</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </div>
           <div className="space-y-4">
-            <Card>
-              <CardContent className="p-6 flex items-center gap-4">
-                <CheckCircle className="h-8 w-8 text-primary" />
-                <div>
-                  <h3 className="font-bold">WE BUILD WIREFRAME</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent className="p-6 flex items-center gap-4">
-                <CheckCircle className="h-8 w-8 text-primary" />
-                <div>
-                  <h3 className="font-bold">WE BUILD WIREFRAME</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent className="p-6 flex items-center gap-4">
-                <CheckCircle className="h-8 w-8 text-primary" />
-                <div>
-                  <h3 className="font-bold">WE BUILD WIREFRAME</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
+            <Image 
+              src="https://placehold.co/600x400.png"
+              alt="Team working on code"
+              width={600}
+              height={400}
+              className="rounded-lg shadow-lg"
+              data-ai-hint="code editor"
+            />
           </div>
         </div>
       </div>

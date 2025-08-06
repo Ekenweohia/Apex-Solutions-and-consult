@@ -9,7 +9,7 @@ export default function HeroSection() {
         fill
         style={{ objectFit: 'cover' }}
         className="brightness-50"
-        data-ai-hint="abstract technology"
+        data-ai-hint="code editor"
         priority
       />
       <div className="relative z-10 p-4 max-w-4xl animate-fade-in-up">
