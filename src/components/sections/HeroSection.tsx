@@ -20,6 +20,11 @@ export default function HeroSection() {
           Our aim is building innovate web and mobile application for our client to give them competitive advantage.
         </p>
       </div>
+      <div className="mouse-container absolute bottom-8 left-1/2 -translate-x-1/2">
+        <div className="mouse">
+          <div className="scroller"></div>
+        </div>
+      </div>
       <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
     </section>
   );
