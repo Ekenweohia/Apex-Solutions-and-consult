@@ -15,8 +15,8 @@ const fontHeadline = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Synergy Tech Solutions',
-  description: 'Driving innovation with expert tech solutions.',
+  title: 'TechSolute - We build Digital products that power business',
+  description: 'Our aim is building innovate web and mobile application for our client to give them competitive advantage.',
 };
 
 export default function RootLayout({

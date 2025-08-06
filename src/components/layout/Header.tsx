@@ -1,6 +1,6 @@
 'use client';
 
-import { CodeIcon, Menu, MountainIcon } from 'lucide-react';
+import { CodeIcon, Menu } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import {
@@ -11,9 +11,8 @@ import {
 import { useState } from 'react';
 
 const navLinks = [
+  { href: '#about', label: 'About' },
   { href: '#services', label: 'Services' },
-  { href: '#testimonials', label: 'Testimonials' },
-  { href: '#ai-generator', label: 'AI Generator' },
   { href: '#contact', label: 'Contact' },
 ];
 
@@ -28,7 +27,7 @@ export default function Header() {
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <CodeIcon className="h-6 w-6 text-primary" />
-            <span className="font-bold font-headline">Synergy Tech</span>
+            <span className="font-bold font-headline">TechSolute</span>
           </Link>
         </div>
 
@@ -59,7 +58,7 @@ export default function Header() {
                   onClick={closeSheet}
                 >
                   <CodeIcon className="h-6 w-6 text-primary" />
-                  <span className="font-bold font-headline">Synergy Tech</span>
+                  <span className="font-bold font-headline">TechSolute</span>
                 </Link>
                 {navLinks.map(({ href, label }) => (
                   <Link

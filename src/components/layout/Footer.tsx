@@ -1,5 +1,4 @@
-import { CodeIcon, Linkedin, Twitter, Github } from 'lucide-react';
-import Link from 'next/link';
+import { CodeIcon } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -8,19 +7,18 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <CodeIcon className="h-6 w-6 text-primary hidden md:block" />
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            &copy; {new Date().getFullYear()} Synergy Tech Solutions. All rights reserved.
+            This is copyright of TechSolute © {new Date().getFullYear()}.
           </p>
         </div>
         <div className="flex items-center gap-4">
-          <Link href="#" aria-label="Twitter">
-            <Twitter className="h-5 w-5 text-muted-foreground transition-colors hover:text-primary" />
-          </Link>
-          <Link href="#" aria-label="GitHub">
-            <Github className="h-5 w-5 text-muted-foreground transition-colors hover:text-primary" />
-          </Link>
-          <Link href="#" aria-label="LinkedIn">
-            <Linkedin className="h-5 w-5 text-muted-foreground transition-colors hover:text-primary" />
-          </Link>
+            <div className="text-sm text-muted-foreground text-center md:text-left">
+                <p className="font-semibold">Vincent Abodei</p>
+                <p>Client Service Coordinator</p>
+            </div>
+            <div className="text-sm text-muted-foreground text-center md:text-left">
+                <p className="font-semibold">Ebizimoh Abodei</p>
+                <p>Client Service Coordinator</p>
+            </div>
         </div>
       </div>
     </footer>
