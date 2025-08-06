@@ -119,8 +119,8 @@ export default function ServicesSection() {
                          <Image 
                             src={service.image.src}
                             alt={service.image.alt}
-                            width={600}
-                            height={400}
+                            width={1280}
+                            height={720}
                             className="rounded-lg shadow-lg w-full h-auto"
                             data-ai-hint={service.image.aiHint}
                         />
