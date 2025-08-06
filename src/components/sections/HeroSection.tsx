@@ -9,7 +9,7 @@ export default function HeroSection() {
         fill
         style={{ objectFit: 'cover' }}
         className="brightness-50"
-        data-ai-hint="digital products"
+        data-ai-hint="abstract technology"
         priority
       />
       <div className="relative z-10 p-4 max-w-4xl animate-fade-in-up">
@@ -20,7 +20,7 @@ export default function HeroSection() {
           Our aim is building innovate web and mobile application for our client to give them competitive advantage.
         </p>
       </div>
-      <div className="mouse-container absolute bottom-8 left-1/2 -translate-x-1/2">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
         <div className="mouse">
           <div className="scroller"></div>
         </div>
