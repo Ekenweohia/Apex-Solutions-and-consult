@@ -59,7 +59,7 @@ const services = [
     title: 'QA & Testing',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
     image: {
-        src: "https://cdn.pixabay.com/photo/2021/09/07/07/03/robot-6602742_1280.jpg",
+        src: "https://cdn.pixabay.com/photo/2022/10/04/21/25/xr-7499160_1280.jpg",
         alt: "QA & Testing",
         aiHint: "quality assurance"
     }
