@@ -9,7 +9,7 @@ const services = [
     title: 'Enterprise Software Development',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
     image: {
-      src: "https://cdn.pixabay.com/photo/2024/04/15/07/04/computer-8779040_1280.jpg",
+      src: "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg",
       alt: "Enterprise Software Development",
       aiHint: "enterprise software"
     }
