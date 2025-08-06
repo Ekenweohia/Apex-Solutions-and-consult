@@ -53,22 +53,6 @@ export default function AboutSection() {
               className="rounded-lg shadow-lg col-span-2"
               data-ai-hint="code editor"
             />
-             <Image 
-              src="https://placehold.co/300x200.png"
-              alt="Close up of code on a screen"
-              width={300}
-              height={200}
-              className="rounded-lg shadow-lg"
-              data-ai-hint="code screen"
-            />
-             <Image 
-              src="https://placehold.co/300x200.png"
-              alt="Team collaborating around a laptop"
-              width={300}
-              height={200}
-              className="rounded-lg shadow-lg"
-              data-ai-hint="collaboration meeting"
-            />
           </div>
         </div>
       </div>
