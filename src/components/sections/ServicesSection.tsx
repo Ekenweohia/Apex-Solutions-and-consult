@@ -1,6 +1,7 @@
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone } from 'lucide-react';
+import Image from 'next/image';
 
 const services = [
   {
@@ -71,6 +72,16 @@ export default function ServicesSection() {
                     <CardContent className="text-center flex-grow">
                         <CardDescription>{service.description}</CardDescription>
                     </CardContent>
+                    <CardFooter>
+                         <Image 
+                            src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=600"
+                            alt="Woman in black top using Surface laptop"
+                            width={600}
+                            height={400}
+                            className="rounded-lg shadow-lg"
+                            data-ai-hint="woman coding"
+                        />
+                    </CardFooter>
                     </Card>
                 ))}
                 </div>
