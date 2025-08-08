@@ -149,7 +149,7 @@ export default function ServicesSection() {
                 <div className="py-12">
                      <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
                         {industries.map((industry) => (
-                            <Card key={industry.name} className="flex flex-col items-center justify-center text-center p-6">
+                            <Card key={industry.name} className="flex flex-col items-center justify-center text-center p-6 h-full">
                                 <div className="mb-4">{industry.icon}</div>
                                 <h3 className="text-lg font-bold font-headline">{industry.name}</h3>
                                 <p className="text-muted-foreground mt-2">{industry.description}</p>
