@@ -10,14 +10,14 @@ import Autoplay from 'embla-carousel-autoplay';
 import * as React from 'react';
 
 const partners = [
-  { name: 'Partner 1', logoUrl: 'https://placehold.co/160x70.png' },
-  { name: 'Partner 2', logoUrl: 'https://placehold.co/160x70.png' },
-  { name: 'Partner 3', logoUrl: 'https://placehold.co/160x70.png' },
-  { name: 'Partner 4', logoUrl: 'https://placehold.co/160x70.png' },
-  { name: 'Partner 5', logoUrl: 'https://placehold.co/160x70.png' },
-  { name: 'Partner 6', logoUrl: 'https://placehold.co/160x70.png' },
-  { name: 'Partner 7', logoUrl: 'https://placehold.co/160x70.png' },
-  { name: 'Partner 8', logoUrl: 'https://placehold.co/160x70.png' },
+  { name: 'Google', logoUrl: 'https://cdn.pixabay.com/photo/2015/09/14/15/51/google-939112_1280.png' },
+  { name: 'Microsoft', logoUrl: 'https://cdn.pixabay.com/photo/2021/09/26/13/16/microsoft-6657393_1280.png' },
+  { name: 'Amazon', logoUrl: 'https://cdn.pixabay.com/photo/2021/08/13/11/17/amazon-6542735_1280.png' },
+  { name: 'Meta', logoUrl: 'https://cdn.pixabay.com/photo/2021/10/29/16/11/meta-6752339_1280.png' },
+  { name: 'Netflix', logoUrl: 'https://cdn.pixabay.com/photo/2021/08/25/19/22/netflix-6574345_1280.png' },
+  { name: 'Spotify', logoUrl: 'https://cdn.pixabay.com/photo/2021/08/23/13/12/spotify-6567793_1280.png' },
+  { name: 'Salesforce', logoUrl: 'https://cdn.pixabay.com/photo/2016/01/16/22/27/salesforce-1144212_1280.png' },
+  { name: 'Slack', logoUrl: 'https://cdn.pixabay.com/photo/2017/01/18/16/22/slack-1990074_1280.png' },
 ];
 
 export default function PartnersSection() {
