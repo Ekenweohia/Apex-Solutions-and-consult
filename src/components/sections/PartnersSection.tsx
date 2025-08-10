@@ -10,14 +10,14 @@ import Autoplay from 'embla-carousel-autoplay';
 import * as React from 'react';
 
 const partners = [
-  { name: 'Google', logoUrl: 'https://cdn.pixabay.com/photo/2015/09/14/15/51/google-939112_1280.png' },
-  { name: 'Microsoft', logoUrl: 'https://cdn.pixabay.com/photo/2021/09/26/13/16/microsoft-6657393_1280.png' },
-  { name: 'Amazon', logoUrl: 'https://cdn.pixabay.com/photo/2021/08/13/11/17/amazon-6542735_1280.png' },
-  { name: 'Meta', logoUrl: 'https://cdn.pixabay.com/photo/2021/10/29/16/11/meta-6752339_1280.png' },
-  { name: 'Netflix', logoUrl: 'https://cdn.pixabay.com/photo/2021/08/25/19/22/netflix-6574345_1280.png' },
-  { name: 'Spotify', logoUrl: 'https://cdn.pixabay.com/photo/2021/08/23/13/12/spotify-6567793_1280.png' },
-  { name: 'Salesforce', logoUrl: 'https://cdn.pixabay.com/photo/2016/01/16/22/27/salesforce-1144212_1280.png' },
-  { name: 'Slack', logoUrl: 'https://cdn.pixabay.com/photo/2017/01/18/16/22/slack-1990074_1280.png' },
+  { name: 'Google', logoUrl: 'https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088003_1280.png' },
+  { name: 'Microsoft', logoUrl: 'https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png' },
+  { name: 'McDonals', logoUrl: 'https://cdn.pixabay.com/photo/2015/10/20/21/05/mcdonald-998495_1280.png' },
+  { name: 'Meta', logoUrl: 'https://cdn.pixabay.com/photo/2021/12/06/13/45/meta-6850393_1280.png' },
+  { name: 'Netflix', logoUrl: 'https://cdn.pixabay.com/photo/2022/08/24/20/20/netflix-7408710_1280.png' },
+  { name: 'Yahoo', logoUrl: 'https://cdn.pixabay.com/photo/2013/01/29/22/53/yahoo-76684_1280.png' },
+  { name: 'Eagle', logoUrl: 'https://cdn.pixabay.com/photo/2024/01/08/10/19/ai-generated-8495231_1280.png' },
+  { name: 'PixaBay', logoUrl: 'https://cdn.pixabay.com/photo/2015/03/05/22/52/logo-661013_1280.png' },
 ];
 
 export default function PartnersSection() {
@@ -56,7 +56,7 @@ export default function PartnersSection() {
                         width={160}
                         height={70}
                         style={{ objectFit: 'contain' }}
-                        className="grayscale hover:grayscale-0 transition-all"
+                        className="transition-all"
                         data-ai-hint="company logo"
                       />
                     </div>
