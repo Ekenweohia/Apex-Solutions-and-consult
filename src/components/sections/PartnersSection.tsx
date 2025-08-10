@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import {
   Carousel,
@@ -6,6 +8,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
+import Autoplay from 'embla-carousel-autoplay';
+import * as React from 'react';
 
 const partners = [
   { name: 'Partner 1', logoUrl: 'https://placehold.co/160x70.png' },
@@ -19,6 +23,8 @@ const partners = [
 ];
 
 export default function PartnersSection() {
+  const plugin = React.useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
+
   return (
     <section id="partners" className="py-16 sm:py-24 bg-background">
       <div className="container">
@@ -32,11 +38,14 @@ export default function PartnersSection() {
         </div>
         <div className="mt-12">
           <Carousel
+            plugins={[plugin.current]}
             opts={{
               align: 'start',
               loop: true,
             }}
             className="w-full"
+            onMouseEnter={plugin.current.stop}
+            onMouseLeave={plugin.current.reset}
           >
             <CarouselContent>
               {partners.map((partner, index) => (

@@ -2,6 +2,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter }
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot } from 'lucide-react';
 import Image from 'next/image';
+import PartnersSection from './PartnersSection';
 
 const services = [
   {
@@ -166,6 +167,7 @@ export default function ServicesSection() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
             </p>
         </div>
+        <PartnersSection />
       </div>
     </section>
   );
