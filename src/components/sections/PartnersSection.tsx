@@ -48,18 +48,16 @@ export default function PartnersSection() {
             <CarouselContent>
               {partners.map((partner, index) => (
                 <CarouselItem key={index} className="basis-1/2 md:basis-1/3 lg:basis-1/5">
-                  <div className="p-4">
-                    <div className="flex items-center justify-center p-6 bg-secondary rounded-lg h-28">
-                      <Image
-                        src={partner.logoUrl}
-                        alt={partner.name}
-                        width={160}
-                        height={70}
-                        style={{ objectFit: 'contain' }}
-                        className="transition-all"
-                        data-ai-hint="company logo"
-                      />
-                    </div>
+                  <div className="p-4 flex items-center justify-center h-28">
+                    <Image
+                      src={partner.logoUrl}
+                      alt={partner.name}
+                      width={160}
+                      height={70}
+                      style={{ objectFit: 'contain' }}
+                      className="transition-all"
+                      data-ai-hint="company logo"
+                    />
                   </div>
                 </CarouselItem>
               ))}
