@@ -160,7 +160,7 @@ export default function ServicesSection() {
             </TabsContent>
         </Tabs>
 
-        <div className="mt-24 text-center max-w-2xl mx-auto">
+        <div className="mt-16 text-center max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold font-headline">Our mission</h3>
             <p className="mt-4 text-muted-foreground">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
