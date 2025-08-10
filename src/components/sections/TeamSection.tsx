@@ -1,0 +1,77 @@
+import Image from 'next/image';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+
+const teamMembers = [
+  {
+    name: 'Alex Johnson',
+    role: 'Founder & CEO',
+    avatarUrl: 'https://placehold.co/400x400.png',
+    aiHint: 'man portrait',
+  },
+  {
+    name: 'Samantha Lee',
+    role: 'Chief Technology Officer',
+    avatarUrl: 'https://placehold.co/400x400.png',
+    aiHint: 'woman portrait',
+  },
+  {
+    name: 'David Chen',
+    role: 'Lead Software Engineer',
+    avatarUrl: 'https://placehold.co/400x400.png',
+    aiHint: 'man software engineer',
+  },
+  {
+    name: 'Maria Garcia',
+    role: 'Head of UX/UI Design',
+    avatarUrl: 'https://placehold.co/400x400.png',
+    aiHint: 'woman designer',
+  },
+  {
+    name: 'James Brown',
+    role: 'Senior Project Manager',
+    avatarUrl: 'https://placehold.co/400x400.png',
+    aiHint: 'man project manager',
+  },
+  {
+    name: 'Emily White',
+    role: 'Marketing Director',
+    avatarUrl: 'https://placehold.co/400x400.png',
+    aiHint: 'woman marketing',
+  },
+];
+
+export default function TeamSection() {
+  return (
+    <section id="team" className="py-16 sm:py-24 bg-secondary">
+      <div className="container">
+        <div className="text-center">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            Meet Our Leadership
+          </h2>
+          <p className="mt-4 max-w-2xl mx-auto text-muted-foreground md:text-xl">
+            The driving force behind our innovation and success.
+          </p>
+        </div>
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {teamMembers.map((member) => (
+            <Card key={member.name} className="text-center overflow-hidden">
+              <div className="relative h-64 w-full">
+                <Image
+                  src={member.avatarUrl}
+                  alt={`Portrait of ${member.name}`}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  data-ai-hint={member.aiHint}
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold font-headline">{member.name}</h3>
+                <p className="text-primary font-medium">{member.role}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

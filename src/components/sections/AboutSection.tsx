@@ -12,12 +12,12 @@ export default function AboutSection() {
               WHO WE ARE
             </h2>
             <p className="mt-4 text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur.
+            Techsolute is an IT consulting business geared towards growing commercial enterprise. 
+            We are specialized in promoting all kinds of businesses. From our consultative services, mobile app/ software development, 
+            we help to remunerate your business career. 
+            Our ux/UI designs are friendly thereby causing ease of usage for our software. 
+            We create awareness for business enterprises through our social media platforms.  
+            Our educational services help train business teams with knowledge on how to grow small scale businesses.
             </p>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Card>
