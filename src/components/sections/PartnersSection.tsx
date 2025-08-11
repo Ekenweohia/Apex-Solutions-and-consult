@@ -12,11 +12,11 @@ import * as React from 'react';
 const partners = [
   { name: 'Google', logoUrl: 'https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088003_1280.png' },
   { name: 'Microsoft', logoUrl: 'https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png' },
-  { name: 'McDonals', logoUrl: 'https://cdn.pixabay.com/photo/2015/10/20/21/05/mcdonald-998495_1280.png' },
+  { name: 'Honda', logoUrl: 'https://cdn.pixabay.com/photo/2016/08/15/18/18/honda-1596081_1280.png' },
   { name: 'Meta', logoUrl: 'https://cdn.pixabay.com/photo/2021/12/06/13/45/meta-6850393_1280.png' },
   { name: 'Netflix', logoUrl: 'https://cdn.pixabay.com/photo/2022/08/24/20/20/netflix-7408710_1280.png' },
   { name: 'Yahoo', logoUrl: 'https://cdn.pixabay.com/photo/2013/01/29/22/53/yahoo-76684_1280.png' },
-  { name: 'Eagle', logoUrl: 'https://cdn.pixabay.com/photo/2024/01/08/10/19/ai-generated-8495231_1280.png' },
+  { name: 'PayPal', logoUrl: 'https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png' },
   { name: 'PixaBay', logoUrl: 'https://cdn.pixabay.com/photo/2015/03/05/22/52/logo-661013_1280.png' },
 ];
 
