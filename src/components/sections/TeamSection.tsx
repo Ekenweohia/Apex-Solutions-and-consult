@@ -17,7 +17,7 @@ const teamMembers = [
   {
     name: 'David Chen',
     role: 'Lead Software Engineer',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: 'https://images.unsplash.com/photo-1543132220-4bf3de6e10ae?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     aiHint: 'man software engineer',
   },
   {
