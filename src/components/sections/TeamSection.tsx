@@ -23,7 +23,7 @@ const teamMembers = [
   {
     name: 'Maria Garcia',
     role: 'Head of UX/UI Design',
-    avatarUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    avatarUrl: 'https://images.pexels.com/photos/8528741/pexels-photo-8528741.jpeg',
     aiHint: 'woman designer',
   },
   {
@@ -35,7 +35,7 @@ const teamMembers = [
   {
     name: 'Emily White',
     role: 'Marketing Director',
-    avatarUrl: 'https://images.unsplash.com/photo-1649735623767-0171afa09536?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    avatarUrl: 'https://images.unsplash.com/photo-1649735623767-0171afa09536?q=80&w=764&auto=format&fit=crop&ixlib-rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     aiHint: 'woman marketing',
   },
 ];
