@@ -11,7 +11,7 @@ const teamMembers = [
   {
     name: 'Samantha Lee',
     role: 'Chief Technology Officer',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: 'https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_1280.jpg',
     aiHint: 'woman portrait',
   },
   {
