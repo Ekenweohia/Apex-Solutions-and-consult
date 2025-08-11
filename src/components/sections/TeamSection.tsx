@@ -23,7 +23,7 @@ const teamMembers = [
   {
     name: 'Maria Garcia',
     role: 'Head of UX/UI Design',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: 'https://images.unsplash.com/photo-1713526721814-412688ede906?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     aiHint: 'woman designer',
   },
   {
