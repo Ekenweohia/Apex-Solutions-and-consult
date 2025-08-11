@@ -16,7 +16,7 @@ const fontHeadline = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'apex solution and consult - We build Digital products that power business',
+  title: 'Apex Solution and Consult - We build Digital products that power business',
   description: 'Our aim is building innovate web and mobile application for our client to give them competitive advantage.',
 };
 
