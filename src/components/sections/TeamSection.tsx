@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: 'Alex Johnson',
     role: 'Founder & CEO',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: 'https://images.unsplash.com/photo-1621972659738-598cd8f7c37c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     aiHint: 'man portrait',
   },
   {
