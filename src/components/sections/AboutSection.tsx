@@ -12,7 +12,7 @@ export default function AboutSection() {
               WHO WE ARE
             </h2>
             <p className="mt-4 text-muted-foreground">
-            Techsolute is an IT consulting business geared towards growing commercial enterprise. 
+            apex solution and consult is an IT consulting business geared towards growing commercial enterprise. 
             We are specialized in promoting all kinds of businesses. From our consultative services, mobile app/ software development, 
             we help to remunerate your business career. 
             Our ux/UI designs are friendly thereby causing ease of usage for our software. 
