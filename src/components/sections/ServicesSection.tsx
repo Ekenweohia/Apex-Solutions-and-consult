@@ -25,24 +25,15 @@ const services = [
         aiHint: "mobile development"
     }
   },
-  {
-    icon: <LineChart className="h-10 w-10 text-primary" />,
-    title: 'IT Consulting',
-    description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
-    image: {
-        src: "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg",
-        alt: "IT Consulting",
-        aiHint: "it consulting"
-    }
-  },
+  
     {
-    icon: <Code className="h-10 w-10 text-primary" />,
-    title: 'Dedicated Development Team',
+      icon: <GraduationCap className="h-10 w-10 text-primary" />,
+    title: 'Training',
     description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
     image: {
-        src: "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_1280.jpg",
-        alt: "Dedicated Development Team",
-        aiHint: "development team"
+        src: "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg",
+        alt: "Tech Training",
+        aiHint: "Tech Training"
     }
   },
   {
@@ -63,6 +54,16 @@ const services = [
         src: "https://cdn.pixabay.com/photo/2022/10/04/21/25/xr-7499160_1280.jpg",
         alt: "QA & Testing",
         aiHint: "quality assurance"
+    }
+  },
+  {
+    icon: <LineChart className="h-10 w-10 text-primary" />,
+    title: 'IT Consulting',
+    description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    image: {
+        src: "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg",
+        alt: "IT Consulting",
+        aiHint: "it consulting"
     }
   },
 ];
