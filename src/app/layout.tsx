@@ -18,13 +18,6 @@ const fontHeadline = Space_Grotesk({
 export const metadata: Metadata = {
   title: 'Apex Solution and Consult - We build Digital products that power business',
   description: 'Our aim is building innovate web and mobile application for our client to give them competitive advantage.',
-  icons: {
-    icon: [
-        { url: '/logo.png', sizes: 'any', type: 'image/png' },
-    ],
-    shortcut: '/logo.png',
-    apple: '/logo.png',
-  },
 };
 
 export default function RootLayout({
@@ -34,6 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/logo.png" type="image/png" sizes="any" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+      </head>
       <body
         suppressHydrationWarning={true}
         className={cn(
