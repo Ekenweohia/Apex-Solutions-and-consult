@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 
 const permanentPartners = [
@@ -34,7 +34,7 @@ export default function PermanentPartnersSection() {
                         width={160}
                         height={70}
                         style={{ objectFit: 'contain' }}
-                        className="transition-all duration-300"
+                        className="grayscale hover:grayscale-0 transition-all duration-300"
                         data-ai-hint="company logo"
                       />
                     </Card>
