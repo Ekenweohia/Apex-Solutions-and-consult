@@ -130,15 +130,16 @@ body {
     animation: fade-in-up 0.8s ease-out forwards;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
+@keyframes coin-spin {
+  0%, 100% {
+    transform: rotateY(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  5% { /* Animation happens in the first second of the 20s cycle */
+    transform: rotateY(360deg);
   }
 }
 
-.logo-spin:hover {
-  animation: spin 1s ease-in-out;
+.logo-spin {
+  animation: coin-spin 20s linear infinite;
+  transform-style: preserve-3d;
 }
