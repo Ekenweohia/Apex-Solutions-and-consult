@@ -5,13 +5,13 @@ import Image from "next/image";
 export default function AboutSection() {
   return (
     <section id="about" className="py-16 sm:py-24 relative overflow-hidden">
-      <div className="absolute inset-0 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center z-0">
         <Image
           src="/logo.png"
           alt="Apex Solution and Consult Logo"
-          width={500}
-          height={500}
-          className="opacity-10 logo-spin"
+          width={600}
+          height={600}
+          className="opacity-50 logo-spin"
         />
       </div>
       <div className="container relative z-10">
