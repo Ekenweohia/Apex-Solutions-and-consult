@@ -4,8 +4,17 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 sm:py-24 bg-secondary">
-      <div className="container">
+    <section id="about" className="py-16 sm:py-24 bg-secondary relative overflow-hidden">
+      <div className="absolute inset-0 flex items-center justify-center">
+        <Image
+          src="/logo.png"
+          alt="Apex Solution and Consult Logo"
+          width={500}
+          height={500}
+          className="opacity-5 animate-logo-backdrop"
+        />
+      </div>
+      <div className="container relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">

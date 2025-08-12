@@ -143,3 +143,16 @@ body {
   animation: coin-spin 20s linear infinite;
   transform-style: preserve-3d;
 }
+
+@keyframes logo-backdrop-spin {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to {
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+.animate-logo-backdrop {
+    animation: logo-backdrop-spin 60s linear infinite;
+}
