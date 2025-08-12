@@ -27,7 +27,7 @@ export default function PermanentPartnersSection() {
               {permanentPartners.map((partner) => (
                 <Tooltip key={partner.name}>
                   <TooltipTrigger asChild>
-                    <Card className="flex items-center justify-center p-6 transition-transform duration-300 hover:scale-110 hover:shadow-lg">
+                    <Card className="flex items-center justify-center p-6 transition-transform duration-300 hover:scale-110 hover:shadow-lg border-0 shadow-none">
                       <Image
                         src={partner.logoUrl}
                         alt={`${partner.name} logo`}
