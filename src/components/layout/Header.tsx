@@ -26,10 +26,10 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 max-w-screen-2xl items-center">
+      <div className="container flex h-24 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Image src="/logo.png" alt="Apex Solution and Consult Logo" width={48} height={48} className="logo-spin" />
+            <Image src="/logo.png" alt="Apex Solution and Consult Logo" width={80} height={80} className="logo-spin" />
             <span className="font-bold font-headline">Apex Solution and Consult</span>
           </Link>
         </div>
@@ -61,7 +61,7 @@ export default function Header() {
                   className="flex items-center gap-2 text-lg font-semibold"
                   onClick={closeSheet}
                 >
-                  <Image src="/logo.png" alt="Apex Solution and Consult Logo" width={48} height={48} className="logo-spin" />
+                  <Image src="/logo.png" alt="Apex Solution and Consult Logo" width={100} height={100} className="logo-spin" />
                   <span className="font-bold font-headline">Apex Solution and Consult</span>
                 </Link>
                 {navLinks.map(({ href, label }) => (

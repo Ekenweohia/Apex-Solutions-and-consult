@@ -10,8 +10,8 @@ export default function AboutSection() {
               <Image
                   src="/logo.png"
                   alt="Apex Solution and Consult Logo"
-                  width={600}
-                  height={600}
+                  width={1000}
+                  height={1000}
                   className="opacity-50 logo-spin"
               />
           </div>
