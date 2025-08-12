@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, School } from "lucide-react";
+import { CheckCircle, School, Briefcase } from "lucide-react";
 import Image from "next/image";
 
 export default function AboutSection() {
@@ -19,7 +19,7 @@ export default function AboutSection() {
             We create awareness for business enterprises through our social media platforms.  
             Our educational services help train business teams with knowledge on how to grow small scale businesses.
             </p>
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Card>
                 <CardContent className="p-4 flex items-center gap-4">
                   <CheckCircle className="h-8 w-8 text-primary" />
@@ -47,6 +47,17 @@ export default function AboutSection() {
                   <School className="h-8 w-8 text-primary" />
                   <div>
                     <h3 className="font-bold">WE PROVIDE TRAINING</h3>
+                    <p className="text-muted-foreground text-sm">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-4 flex items-center gap-4">
+                  <Briefcase className="h-8 w-8 text-primary" />
+                  <div>
+                    <h3 className="font-bold">GENERAL IT CONSULTANCY</h3>
                     <p className="text-muted-foreground text-sm">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
