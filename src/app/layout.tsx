@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: 'Apex Solution and Consult - We build Digital products that power business',
   description: 'Our aim is building innovate web and mobile application for our client to give them competitive advantage.',
   icons: {
-    icon: '/favicon.png',
+    icon: '/logo.png',
   },
 };
 

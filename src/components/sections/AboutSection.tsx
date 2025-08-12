@@ -26,9 +26,7 @@ export default function AboutSection() {
             Apex Solution and Consult is an IT consulting business geared towards growing commercial enterprise. 
             We are specialized in promoting all kinds of businesses. From our consultative services, mobile app/ software development, 
             we help to remunerate your business career. 
-            Our ux/UI designs are friendly thereby causing ease of usage for our software. 
-            We create awareness for business enterprises through our social media platforms.  
-            Our educational services help train business teams with knowledge on how to grow small scale businesses.
+            Our ux/UI designs are friendly thereby causin
             </p>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Card>
