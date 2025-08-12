@@ -1,6 +1,7 @@
 'use client';
 
-import { CodeIcon, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import {
@@ -28,7 +29,7 @@ export default function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <CodeIcon className="h-6 w-6 text-primary" />
+            <Image src="/logo.png" alt="Apex Solution and Consult Logo" width={32} height={32} />
             <span className="font-bold font-headline">Apex Solution and Consult</span>
           </Link>
         </div>
@@ -60,7 +61,7 @@ export default function Header() {
                   className="flex items-center gap-2 text-lg font-semibold"
                   onClick={closeSheet}
                 >
-                  <CodeIcon className="h-6 w-6 text-primary" />
+                  <Image src="/logo.png" alt="Apex Solution and Consult Logo" width={32} height={32} />
                   <span className="font-bold font-headline">Apex Solution and Consult</span>
                 </Link>
                 {navLinks.map(({ href, label }) => (
