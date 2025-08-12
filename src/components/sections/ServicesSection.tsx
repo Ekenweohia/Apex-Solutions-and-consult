@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot } from 'lucide-react';
 import Image from 'next/image';
 import PartnersSection from './PartnersSection';
+import PermanentPartnersSection from './PermanentPartnersSection';
 
 const services = [
   {
@@ -169,6 +170,7 @@ export default function ServicesSection() {
             </p>
         </div>
         <PartnersSection />
+        <PermanentPartnersSection />
       </div>
     </section>
   );

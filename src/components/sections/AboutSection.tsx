@@ -35,17 +35,6 @@ export default function AboutSection() {
                 <CardContent className="p-4 flex items-center gap-4">
                   <CheckCircle className="h-8 w-8 text-primary" />
                   <div>
-                    <h3 className="font-bold">WE BUILD WIREFRAMES</h3>
-                    <p className="text-muted-foreground text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-4 flex items-center gap-4">
-                  <CheckCircle className="h-8 w-8 text-primary" />
-                  <div>
                     <h3 className="font-bold">WE BUILD PWA</h3>
                     <p className="text-muted-foreground text-sm">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
