@@ -11,7 +11,7 @@ export default function AboutSection() {
           alt="Apex Solution and Consult Logo"
           width={500}
           height={500}
-          className="opacity-5 logo-spin"
+          className="opacity-10 logo-spin"
         />
       </div>
       <div className="container relative z-10">
