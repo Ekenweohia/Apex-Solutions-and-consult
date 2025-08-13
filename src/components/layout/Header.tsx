@@ -29,8 +29,8 @@ export default function Header() {
       <div className="container flex h-24 max-w-screen-2xl items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Image src="/logo.png" alt="Apex Solution and Consult Logo" width={80} height={80} className="logo-spin" />
-            <span className="font-bold font-headline">Apex Solution and Consult</span>
+            <Image src="/logo.png" alt="Apex Solutions and Consult Logo" width={80} height={80} className="logo-spin" />
+            <span className="font-bold font-headline">Apex Solutions and Consult</span>
           </Link>
         </div>
 
@@ -61,8 +61,8 @@ export default function Header() {
                   className="flex items-center gap-2 text-lg font-semibold"
                   onClick={closeSheet}
                 >
-                  <Image src="/logo.png" alt="Apex Solution and Consult Logo" width={100} height={100} className="logo-spin" />
-                  <span className="font-bold font-headline">Apex Solution and Consult</span>
+                  <Image src="/logo.png" alt="Apex Solutions and Consult Logo" width={100} height={100} className="logo-spin" />
+                  <span className="font-bold font-headline">Apex Solutions and Consult</span>
                 </Link>
                 {navLinks.map(({ href, label }) => (
                   <Link

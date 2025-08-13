@@ -9,7 +9,7 @@ export default function AboutSection() {
           <div className="sticky top-0 flex h-screen items-center justify-center">
               <Image
                   src="/logo.png"
-                  alt="Apex Solution and Consult Logo"
+                  alt="Apex Solutions and Consult Logo"
                   width={1000}
                   height={1000}
                   className="opacity-50 logo-spin"
@@ -23,7 +23,7 @@ export default function AboutSection() {
               WHO WE ARE
             </h2>
             <p className="mt-4 text-muted-foreground">
-            Apex Solution and Consult is an IT consulting business geared towards growing commercial enterprise. 
+            Apex Solutions and Consult is an IT consulting business geared towards growing commercial enterprise. 
             We are specialized in promoting all kinds of businesses. From our consultative services, mobile app/ software development, 
             we help to remunerate your business career. 
             Our ux/UI designs are friendly thereby causin
