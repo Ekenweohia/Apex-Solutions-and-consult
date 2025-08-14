@@ -99,7 +99,7 @@ export default function ServicesSection() {
           </h2>
         </div>
         <Tabs defaultValue="service" className="mt-8">
-            <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto h-auto rounded-xl p-2 bg-muted">
+            <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto h-auto bg-transparent">
                 <TabsTrigger value="service" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-lg">Service</TabsTrigger>
                 <TabsTrigger value="technology" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-lg">Technology</TabsTrigger>
                 <TabsTrigger value="industry" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-lg">Industry</TabsTrigger>
