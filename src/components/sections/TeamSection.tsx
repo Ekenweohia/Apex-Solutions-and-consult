@@ -35,16 +35,16 @@ const teamMembers = [
   {
     name: 'Emily White',
     role: 'Marketing Director',
-    avatarUrl: 'https://images.unsplash.com/photo-1649735623767-0171afa09536?q=80&w=764&auto=format&fit=crop&ixlib-rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    avatarUrl: 'https://images.unsplash.com/photo-1649735623767-0171afa09536?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     aiHint: 'woman marketing',
   },
 ];
 
 export default function TeamSection() {
   return (
-    <section id="team" className="py-12 sm:py-16 bg-secondary">
+    <section id="team" className="py-8 sm:py-12 bg-secondary">
       <div className="container">
-        <div className="text-center">
+        <div className="text-center mb-8">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Meet Our Leadership
           </h2>
@@ -52,7 +52,7 @@ export default function TeamSection() {
             The driving force behind our innovation and success.
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member) => (
             <Card key={member.name} className="text-center overflow-hidden">
               <div className="relative h-64 w-full">
