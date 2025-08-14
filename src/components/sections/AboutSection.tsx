@@ -26,7 +26,7 @@ export default function AboutSection() {
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">
               WHO WE ARE
             </h2>
-            <p className="mt-4 text-muted-foreground whitespace-pre-line">
+            <p className="mt-4 text-muted-foreground whitespace-pre-line text-justify">
               {isExpanded ? fullText : shortText}
             </p>
             <Button
