@@ -1,7 +1,7 @@
 
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot, Shield, Network, Cloud, Database, Server, Component } from 'lucide-react';
+import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot, Shield, Network, Cloud, Database, Server, Component, FileJson, FileCode, GitBranch, Box, Wind, TerminalSquare, Anchor } from 'lucide-react';
 import Image from 'next/image';
 import PartnersSection from './PartnersSection';
 import PermanentPartnersSection from './PermanentPartnersSection';
@@ -102,17 +102,17 @@ const services = [
 
 const technologies = [
     { name: 'React', description: 'Modern frontend library for UI development.', icon: <Component className="h-8 w-8 text-primary" /> },
-    { name: 'Next.js', description: 'The React framework for production.', icon: <Code className="h-8 w-8 text-primary" /> },
+    { name: 'Next.js', description: 'The React framework for production.', icon: <FileCode className="h-8 w-8 text-primary" /> },
     { name: 'Node.js', description: 'JavaScript runtime for backend services.', icon: <Server className="h-8 w-8 text-primary" /> },
     { name: 'Python', description: 'Versatile language for AI, and web.', icon: <Code className="h-8 w-8 text-primary" /> },
-    { name: 'TypeScript', description: 'JavaScript with syntax for types.', icon: <Code className="h-8 w-8 text-primary" /> },
+    { name: 'TypeScript', description: 'JavaScript with syntax for types.', icon: <TerminalSquare className="h-8 w-8 text-primary" /> },
     { name: 'PostgreSQL', description: 'A powerful, open source object-relational database system.', icon: <Database className="h-8 w-8 text-primary" /> },
-    { name: 'Docker', description: 'Containerization platform for building and running applications.', icon: <Component className="h-8 w-8 text-primary" /> },
+    { name: 'Docker', description: 'Containerization platform for building and running applications.', icon: <Box className="h-8 w-8 text-primary" /> },
     { name: 'AWS', description: 'Comprehensive and broadly adopted cloud platform.', icon: <Cloud className="h-8 w-8 text-primary" /> },
-    { name: 'Java', description: 'A robust, object-oriented programming language.', icon: <Code className="h-8 w-8 text-primary" /> },
-    { name: 'Angular', description: 'A platform for building mobile and desktop web applications.', icon: <Component className="h-8 w-8 text-primary" /> },
-    { name: 'Vue.js', description: 'An approachable, performant and versatile framework.', icon: <Component className="h-8 w-8 text-primary" /> },
-    { name: 'Kubernetes', description: 'Automated container orchestration platform.', icon: <Component className="h-8 w-8 text-primary" /> },
+    { name: 'Java', description: 'A robust, object-oriented programming language.', icon: <FileJson className="h-8 w-8 text-primary" /> },
+    { name: 'Angular', description: 'A platform for building mobile and desktop web applications.', icon: <Wind className="h-8 w-8 text-primary" /> },
+    { name: 'Vue.js', description: 'An approachable, performant and versatile framework.', icon: <GitBranch className="h-8 w-8 text-primary" /> },
+    { name: 'Kubernetes', description: 'Automated container orchestration platform.', icon: <Anchor className="h-8 w-8 text-primary" /> },
 ];
 
 const industries = [
@@ -133,7 +133,7 @@ export default function ServicesSection() {
             WHAT WE OFFER
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl">
-            We have a team of experienced experts and developers who knows exactly what you need to transform your requirements into cutting edge business software. Our multi-platform solutions are targeted towards helping you optimize your business process. We build products on all mobile user platforms (Android, iOS, Windows), and our designs deliver high-end and cross-device usability. Looking for ways to optimize your business processes? Give us your business requirements, while we offer you the best-fit software solution.
+            Apex Solutions and Consult is a forward-thinking IT consulting firm dedicated to empowering and accelerating the growth of commercial enterprises. We partner with businesses of all sizes to deliver innovative, technology-driven solutions that enhance efficiency, strengthen online presence, and drive sustainable success
           </p>
         </div>
         <Tabs defaultValue="service" className="mt-8">
