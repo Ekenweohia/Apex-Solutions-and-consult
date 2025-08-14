@@ -90,8 +90,8 @@ const services = [
   },
   {
     icon: <Cloud className="h-10 w-10 text-primary" />,
-    title: 'Cloud Services',
-    description: 'We help you leverage the power of the cloud with our expert services, including cloud migration, infrastructure management, and optimization. We work with major cloud platforms to provide flexible and scalable solutions.',
+    title: 'CLOUD-BASED SOLUTIONS',
+    description: 'We help businesses harness the power of the cloud to improve scalability, flexibility, and efficiency. Our services include cloud migration, deployment, management, and security, ensuring your systems are optimized, cost-effective, and accessible anywhere. We deliver tailored solutions that align with your goals while maintaining the highest performance and compliance standards.',
     image: {
         src: "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=1920",
         alt: "Cloud Services",
@@ -173,6 +173,7 @@ export default function ServicesSection() {
                             <Card key={tech.name} className="text-center">
                                 <CardHeader>
                                     <CardTitle className="font-headline">{tech.name}</CardTitle>
+
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-muted-foreground">{tech.description}</p>
