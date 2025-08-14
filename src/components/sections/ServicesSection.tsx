@@ -98,7 +98,7 @@ export default function ServicesSection() {
             WHAT WE OFFER
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl">
-            Apex Solutions and Consult is a forward-thinking IT consulting firm dedicated to empowering and accelerating the growth of commercial enterprises. We partner with businesses of all sizes to deliver innovative, technology-driven solutions that enhance efficiency, strengthen online presence, and drive sustainable success.
+            We have a team of experienced experts and developers who knows exactly what you need to transform your requirements into cutting edge business software. Our multi-platform solutions are targeted towards helping you optimize your business process. We build products on all mobile user platforms (Android, iOS, Windows), and our designs deliver high-end and cross-device usability. Looking for ways to optimize your business processes? Give us your business requirements, while we offer you the best-fit software solution.
           </p>
         </div>
         <Tabs defaultValue="service" className="mt-8">
