@@ -50,17 +50,6 @@ export default function AboutSection() {
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Card>
                 <CardContent className="p-4 flex items-center gap-4">
-                  <CheckCircle className="h-8 w-8 text-primary" />
-                  <div>
-                    <h3 className="font-bold">WE BUILD PWA</h3>
-                    <p className="text-muted-foreground text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-4 flex items-center gap-4">
                   <School className="h-8 w-8 text-primary" />
                   <div>
                     <h3 className="font-bold">WE PROVIDE TRAINING</h3>
