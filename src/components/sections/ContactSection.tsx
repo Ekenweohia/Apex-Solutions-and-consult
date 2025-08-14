@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useForm } from 'react-hook-form';
@@ -53,7 +54,7 @@ export default function ContactSection() {
   }
 
   return (
-    <section id="contact" className="py-12 sm:py-16 bg-card">
+    <section id="contact" className="py-8 sm:py-12 bg-card">
       <div className="container">
         <div className="text-center mb-12">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -64,29 +65,6 @@ export default function ContactSection() {
             </p>
         </div>
         <div className="grid md:grid-cols-2 gap-12 items-start">
-            <div className="space-y-8">
-                <div>
-                    <h3 className="text-xl font-bold font-headline mb-4">Contact Information</h3>
-                    <div className="space-y-4 text-muted-foreground">
-                        <div className="flex items-center gap-4">
-                            <Phone className="h-5 w-5 text-primary" />
-                            <span>+372 (0) 53912814</span>
-                        </div>
-                        <div className="flex items-center gap-4">
-                            <Phone className="h-5 w-5 text-primary" />
-                            <span>+358 (0) 466596817</span>
-                        </div>
-                        <div className="flex items-center gap-4">
-                            <Mail className="h-5 w-5 text-primary" />
-                            <span>services@apextech-solutions.com</span>
-                        </div>
-                        <div className="flex items-start gap-4">
-                            <MapPin className="h-5 w-5 text-primary mt-1" />
-                            <span>Aiandi 11/3, Suit 1, 12915 Tallinn, Estonia</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <Card>
             <CardContent className="pt-6">
                 <Form {...form}>
@@ -173,6 +151,29 @@ export default function ContactSection() {
                 </Form>
             </CardContent>
             </Card>
+            <div className="space-y-8">
+                <div>
+                    <h3 className="text-xl font-bold font-headline mb-4">Contact Information</h3>
+                    <div className="space-y-4 text-muted-foreground">
+                        <a href="tel:+37253912814" className="flex items-center gap-4 hover:text-primary transition-colors">
+                            <Phone className="h-5 w-5 text-primary" />
+                            <span>+372 (0) 53912814</span>
+                        </a>
+                        <a href="tel:+358466596817" className="flex items-center gap-4 hover:text-primary transition-colors">
+                            <Phone className="h-5 w-5 text-primary" />
+                            <span>+358 (0) 466596817</span>
+                        </a>
+                         <a href="mailto:services@apextech-solutions.com" className="flex items-center gap-4 hover:text-primary transition-colors">
+                            <Mail className="h-5 w-5 text-primary" />
+                            <span>services@apextech-solutions.com</span>
+                        </a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Aiandi+11%2F3,+12915+Tallinn,+Estonia" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 hover:text-primary transition-colors">
+                            <MapPin className="h-5 w-5 text-primary mt-1" />
+                            <span>Aiandi 11/3, Suit 1, 12915 Tallinn, Estonia</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </section>
