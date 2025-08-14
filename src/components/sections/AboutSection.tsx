@@ -20,17 +20,6 @@ export default function AboutSection() {
 
   return (
     <section id="about" className="relative py-16 sm:py-24">
-      <div className="absolute inset-0 h-full w-full overflow-hidden">
-          <div className="sticky top-0 flex h-screen items-center justify-center">
-              <Image
-                  src="/logo.png"
-                  alt="Apex Solutions and Consult Logo"
-                  width={1000}
-                  height={1000}
-                  className="opacity-10 dark:invert-0 invert"
-              />
-          </div>
-      </div>
       <div className="container relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
