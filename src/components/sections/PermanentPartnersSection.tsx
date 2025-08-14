@@ -14,7 +14,7 @@ export default function PermanentPartnersSection() {
     <section id="permanent-partners" className="py-8 sm:py-12">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Our Strategic Alliances
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-muted-foreground md:text-xl">

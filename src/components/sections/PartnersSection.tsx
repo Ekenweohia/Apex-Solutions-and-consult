@@ -27,7 +27,7 @@ export default function PartnersSection() {
     <section id="partners" className="py-12 sm:py-16 bg-background">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Trusted by Companies Worldwide
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-muted-foreground md:text-xl">

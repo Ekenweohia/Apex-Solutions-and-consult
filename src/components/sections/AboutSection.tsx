@@ -23,7 +23,7 @@ export default function AboutSection() {
       <div className="container relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
               WHO WE ARE
             </h2>
             <p className="mt-4 text-muted-foreground whitespace-pre-line text-justify">
