@@ -40,7 +40,7 @@ export default function ContactSection() {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    const mailtoLink = `mailto:services@apextech-solutions.com?subject=New Quote Request: ${encodeURIComponent(values.service)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:info@apextech-solutions.com?subject=New Quote Request: ${encodeURIComponent(values.service)}&body=${encodeURIComponent(
       `Full Name: ${values.fullName}\nEmail: ${values.email}\n\nMessage:\n${values.message}`
     )}`;
 
@@ -151,10 +151,10 @@ export default function ContactSection() {
                 </Form>
             </CardContent>
             </Card>
-            <div className="space-y-8">
+            <div className="space-y-8 flex flex-col items-center text-center">
                 <div>
                     <h3 className="text-xl font-bold font-headline mb-4">Contact Information</h3>
-                    <div className="space-y-4 text-muted-foreground">
+                    <div className="space-y-4 text-muted-foreground flex flex-col items-center">
                         <a href="tel:+37253912814" className="flex items-center gap-4 hover:text-primary transition-colors">
                             <Phone className="h-5 w-5 text-primary" />
                             <span>+372 (0) 53912814</span>
@@ -163,9 +163,9 @@ export default function ContactSection() {
                             <Phone className="h-5 w-5 text-primary" />
                             <span>+358 (0) 466596817</span>
                         </a>
-                         <a href="mailto:services@apextech-solutions.com" className="flex items-center gap-4 hover:text-primary transition-colors">
+                         <a href="mailto:info@apextech-solutions.com" className="flex items-center gap-4 hover:text-primary transition-colors">
                             <Mail className="h-5 w-5 text-primary" />
-                            <span>services@apextech-solutions.com</span>
+                            <span>info@apextech-solutions.com</span>
                         </a>
                         <a href="https://www.google.com/maps/search/?api=1&query=Aiandi+11%2F3,+12915+Tallinn,+Estonia" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 hover:text-primary transition-colors">
                             <MapPin className="h-5 w-5 text-primary mt-1" />
