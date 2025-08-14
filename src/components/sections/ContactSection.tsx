@@ -39,12 +39,15 @@ export default function ContactSection() {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    console.log(values);
+    const mailtoLink = `mailto:services@apextech-solutions.com?subject=New Quote Request: ${encodeURIComponent(values.service)}&body=${encodeURIComponent(
+      `Full Name: ${values.fullName}\nEmail: ${values.email}\n\nMessage:\n${values.message}`
+    )}`;
+
+    window.open(mailtoLink, '_blank');
+
     toast({
-      title: 'Quote Request Sent!',
-      description: "Thanks for reaching out. We'll get back to you immediately.",
+      title: 'Quote Request Ready!',
+      description: "Your email client has been opened to send the request.",
     });
     form.reset();
   }
@@ -109,6 +112,10 @@ export default function ContactSection() {
                                 <SelectItem value="dedicated-team">Dedicated Development Team</SelectItem>
                                 <SelectItem value="ux-ui-design">UX / UI Design</SelectItem>
                                 <SelectItem value="qa-testing">QA & Testing</SelectItem>
+                                <SelectItem value="cybersecurity">Cybersecurity</SelectItem>
+                                <SelectItem value="computer-networking">Computer Networking</SelectItem>
+                                <SelectItem value="cloud-based-solutions">CLOUD-BASED SOLUTIONS</SelectItem>
+                                <SelectItem value="other">Other</SelectItem>
                             </SelectContent>
                         </Select>
                         <FormMessage />
@@ -130,7 +137,7 @@ export default function ContactSection() {
                 />
                 <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                     <Button type="submit" disabled={form.formState.isSubmitting}>
-                    {form.formState.isSubmitting ? 'Sending...' : 'GET A QUOTE'}
+                    {form.formState.isSubmitting ? 'Preparing...' : 'GET A QUOTE'}
                     <Send className="ml-2 h-4 w-4" />
                     </Button>
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
