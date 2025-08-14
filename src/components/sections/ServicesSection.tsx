@@ -9,7 +9,7 @@ const services = [
   {
     icon: <Briefcase className="h-10 w-10 text-primary" />,
     title: 'Enterprise Software Development',
-    description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    description: 'Our experienced technologists follow industry best practices and standardized development procedures to deliver reliable, high-performance enterprise software. We write clean, well-structured code that is easy to maintain, track, and scale, ensuring your solution meets expectations and supports long-term growth.',
     image: {
       src: "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg",
       alt: "Enterprise Software Development",
@@ -102,7 +102,7 @@ export default function ServicesSection() {
           </p>
         </div>
         <Tabs defaultValue="service" className="mt-8">
-            <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto h-auto bg-muted rounded-lg p-1 shadow-inner">
+            <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto h-auto bg-muted dark:bg-zinc-800 rounded-lg p-1 shadow-inner">
                 <TabsTrigger value="service" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-lg">Service</TabsTrigger>
                 <TabsTrigger value="technology" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-lg">Technology</TabsTrigger>
                 <TabsTrigger value="industry" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-lg">Industry</TabsTrigger>
