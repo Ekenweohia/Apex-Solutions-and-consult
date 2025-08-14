@@ -1,7 +1,7 @@
 
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot, Shield, Network, Cloud, Database, Server, Component, FileJson, FileCode, GitBranch, Box, Wind, TerminalSquare, Anchor, Factory, Truck, Plane } from 'lucide-react';
+import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot, Shield, Network, Cloud, Database, Server, Component, FileJson, FileCode, GitBranch, Box, Wind, TerminalSquare, Anchor, Factory, Truck, Plane, Zap, Scale, Sprout, HeartHandshake } from 'lucide-react';
 import Image from 'next/image';
 import PartnersSection from './PartnersSection';
 import PermanentPartnersSection from './PermanentPartnersSection';
@@ -123,8 +123,12 @@ const industries = [
     { icon: <LandPlot className="h-8 w-8 text-primary" />, name: 'Real Estate', description: 'Solutions for property management and sales.' },
     { icon: <Bot className="h-8 w-8 text-primary" />, name: 'AI Solutions', description: 'Integrating AI to automate and innovate.' },
     { icon: <Factory className="h-8 w-8 text-primary" />, name: 'Manufacturing', description: 'Optimizing production with smart technology.' },
-    { icon: <Truck className="h-8 w-8 text-primary" />, name: 'Logistics', description: 'Streamlining supply chain and delivery systems.' },
+    { icon: <Truck className="h-8 w-8 text-primary" />, name: 'Logistics & Supply Chain', description: 'Streamlining supply chain and delivery systems.' },
     { icon: <Plane className="h-8 w-8 text-primary" />, name: 'Travel & Hospitality', description: 'Enhancing customer experiences for travel.' },
+    { icon: <Zap className="h-8 w-8 text-primary" />, name: 'Energy & Utilities', description: 'Powering the future with technology.' },
+    { icon: <Scale className="h-8 w-8 text-primary" />, name: 'LegalTech', description: 'Modernizing legal services with tech.' },
+    { icon: <Sprout className="h-8 w-8 text-primary" />, name: 'Agriculture', description: 'Cultivating innovation in farming.' },
+    { icon: <HeartHandshake className="h-8 w-8 text-primary" />, name: 'Nonprofit & NGOs', description: 'Tech for social impact.' },
 ];
 
 export default function ServicesSection() {
