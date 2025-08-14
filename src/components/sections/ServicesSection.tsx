@@ -1,3 +1,4 @@
+
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot, Shield, Network, Cloud } from 'lucide-react';
@@ -70,9 +71,9 @@ const services = [
   {
     icon: <Shield className="h-10 w-10 text-primary" />,
     title: 'Cybersecurity',
-    description: 'We provide robust cybersecurity solutions to protect your digital assets from threats. Our services include vulnerability assessments, threat mitigation, and compliance consulting to ensure your business stays secure.',
+    description: 'We protect your business from evolving digital threats with comprehensive cybersecurity solutions, including risk assessments, threat detection, network security, and incident response. At Apex Solutions and Consult, we combine industry best practices with proactive monitoring to keep your data secure and your operations running smoothly.',
     image: {
-        src: "https://images.unsplash.com/photo-1550751827-4138d04d42e3?q=80&w=1920",
+        src: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         alt: "Cybersecurity",
         aiHint: "cybersecurity"
     }
