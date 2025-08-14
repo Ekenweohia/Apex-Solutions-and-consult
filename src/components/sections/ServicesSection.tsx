@@ -1,7 +1,7 @@
 
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot, Shield, Network, Cloud, Database, Server, Component, FileJson, FileCode, GitBranch, Box, Wind, TerminalSquare, Anchor } from 'lucide-react';
+import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot, Shield, Network, Cloud, Database, Server, Component, FileJson, FileCode, GitBranch, Box, Wind, TerminalSquare, Anchor, Factory, Truck, Plane } from 'lucide-react';
 import Image from 'next/image';
 import PartnersSection from './PartnersSection';
 import PermanentPartnersSection from './PermanentPartnersSection';
@@ -122,6 +122,9 @@ const industries = [
     { icon: <GraduationCap className="h-8 w-8 text-primary" />, name: 'EdTech', description: 'Innovative platforms for modern learning.' },
     { icon: <LandPlot className="h-8 w-8 text-primary" />, name: 'Real Estate', description: 'Solutions for property management and sales.' },
     { icon: <Bot className="h-8 w-8 text-primary" />, name: 'AI Solutions', description: 'Integrating AI to automate and innovate.' },
+    { icon: <Factory className="h-8 w-8 text-primary" />, name: 'Manufacturing', description: 'Optimizing production with smart technology.' },
+    { icon: <Truck className="h-8 w-8 text-primary" />, name: 'Logistics', description: 'Streamlining supply chain and delivery systems.' },
+    { icon: <Plane className="h-8 w-8 text-primary" />, name: 'Travel & Hospitality', description: 'Enhancing customer experiences for travel.' },
 ];
 
 export default function ServicesSection() {
@@ -133,7 +136,7 @@ export default function ServicesSection() {
             WHAT WE OFFER
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl">
-            Apex Solutions and Consult is a forward-thinking IT consulting firm dedicated to empowering and accelerating the growth of commercial enterprises. We partner with businesses of all sizes to deliver innovative, technology-driven solutions that enhance efficiency, strengthen online presence, and drive sustainable success
+            We have a team of experienced experts and developers who knows exactly what you need to transform your requirements into cutting edge business software. Our multi-platform solutions are targeted towards helping you optimize your business process. We build products on all mobile user platforms (Android, iOS, Windows), and our designs deliver high-end and cross-device usability. Looking for ways to optimize your business processes? Give us your business requirements, while we offer you the best-fit software solution.
           </p>
         </div>
         <Tabs defaultValue="service" className="mt-8">
