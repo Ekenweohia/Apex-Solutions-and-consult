@@ -64,7 +64,7 @@ export default function ContactSection() {
                 Fill out the contact form and we'll get back to you immediately.
             </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
                 <Card>
                 <CardContent className="pt-6">
