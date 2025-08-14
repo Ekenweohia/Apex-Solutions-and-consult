@@ -59,8 +59,8 @@ const services = [
   },
   {
     icon: <LineChart className="h-10 w-10 text-primary" />,
-    title: 'IT Consulting',
-    description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    title: 'General IT consultancy',
+    description: 'We leverage digital solutions to help you achieve your business goals, providing strategic technology roadmaps that streamline processes and enhance efficiency. Through our advisory and implementation services, we position your business for the visibility, performance, and success you envision.',
     image: {
         src: "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg",
         alt: "IT Consulting",
