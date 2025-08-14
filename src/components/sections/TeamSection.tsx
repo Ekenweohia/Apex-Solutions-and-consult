@@ -42,7 +42,7 @@ const teamMembers = [
 
 export default function TeamSection() {
   return (
-    <section id="team" className="py-16 sm:py-24 bg-secondary">
+    <section id="team" className="py-12 sm:py-16 bg-secondary">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">

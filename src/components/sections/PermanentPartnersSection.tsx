@@ -11,7 +11,7 @@ const permanentPartners = [
 
 export default function PermanentPartnersSection() {
   return (
-    <section id="permanent-partners" className="py-16 sm:py-24">
+    <section id="permanent-partners" className="py-12 sm:py-16">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">

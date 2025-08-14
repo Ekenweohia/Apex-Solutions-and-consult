@@ -19,7 +19,7 @@ export default function AboutSection() {
   const shortText = fullText.split('\n\n')[0];
 
   return (
-    <section id="about" className="relative py-16 sm:py-24">
+    <section id="about" className="relative py-12 sm:py-16">
       <div className="container relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>

@@ -24,7 +24,7 @@ export default function PartnersSection() {
   const plugin = React.useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
 
   return (
-    <section id="partners" className="py-16 sm:py-24 bg-background">
+    <section id="partners" className="py-12 sm:py-16 bg-background">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">
