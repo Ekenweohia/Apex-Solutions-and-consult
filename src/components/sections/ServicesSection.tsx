@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot } from 'lucide-react';
+import { Briefcase, Code, Cpu, LineChart, Milestone, Smartphone, Building, HeartPulse, ShoppingCart, GraduationCap, LandPlot, Bot, Shield, Network, Cloud } from 'lucide-react';
 import Image from 'next/image';
 import PartnersSection from './PartnersSection';
 import PermanentPartnersSection from './PermanentPartnersSection';
@@ -65,6 +65,36 @@ const services = [
         src: "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg",
         alt: "IT Consulting",
         aiHint: "it consulting"
+    }
+  },
+  {
+    icon: <Shield className="h-10 w-10 text-primary" />,
+    title: 'Cybersecurity',
+    description: 'We provide robust cybersecurity solutions to protect your digital assets from threats. Our services include vulnerability assessments, threat mitigation, and compliance consulting to ensure your business stays secure.',
+    image: {
+        src: "https://images.unsplash.com/photo-1550751827-4138d04d42e3?q=80&w=1920",
+        alt: "Cybersecurity",
+        aiHint: "cybersecurity"
+    }
+  },
+  {
+    icon: <Network className="h-10 w-10 text-primary" />,
+    title: 'Networking',
+    description: 'We design, implement, and manage secure and scalable network infrastructures. From local area networks to complex wide-area networks, we ensure reliable connectivity and performance for your business operations.',
+    image: {
+        src: "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?q=80&w=1920",
+        alt: "Networking",
+        aiHint: "networking"
+    }
+  },
+  {
+    icon: <Cloud className="h-10 w-10 text-primary" />,
+    title: 'Cloud Services',
+    description: 'We help you leverage the power of the cloud with our expert services, including cloud migration, infrastructure management, and optimization. We work with major cloud platforms to provide flexible and scalable solutions.',
+    image: {
+        src: "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=1920",
+        alt: "Cloud Services",
+        aiHint: "cloud computing"
     }
   },
 ];
