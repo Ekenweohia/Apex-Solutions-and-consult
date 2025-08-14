@@ -1,8 +1,23 @@
+'use client';
+
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, School, Briefcase } from "lucide-react";
 import Image from "next/image";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+
+const fullText = `Apex Solutions and Consult is a forward-thinking IT consulting firm dedicated to empowering and accelerating the growth of commercial enterprises. We partner with businesses of all sizes to deliver innovative, technology-driven solutions that enhance efficiency, strengthen online presence, and drive sustainable success.
+
+Our expertise spans a wide range of services, including IT consulting, mobile and web application development, enterprise software solutions, UI/UX design, and comprehensive QA & testing. We pride ourselves on creating intuitive, user-friendly interfaces that make our software seamless to navigate and highly effective for end users.
+
+Beyond technology development, we leverage social media strategies to boost brand visibility and create meaningful connections between businesses and their target audiences. Through our educational and training programs, we equip business teams—particularly in the small-scale sector—with practical skills and insights to fuel growth and competitiveness in today’s digital marketplace.
+
+At Apex Solutions and Consult, we don’t just provide services; we build partnerships that help transform visions into measurable results.`;
 
 export default function AboutSection() {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const shortText = fullText.split('\n\n')[0];
+
   return (
     <section id="about" className="relative py-16 sm:py-24">
       <div className="absolute inset-0 h-full w-full overflow-hidden">
@@ -12,7 +27,7 @@ export default function AboutSection() {
                   alt="Apex Solutions and Consult Logo"
                   width={1000}
                   height={1000}
-                  className="opacity-10 logo-spin dark:invert-0 invert"
+                  className="opacity-10 dark:invert-0 invert"
               />
           </div>
       </div>
@@ -23,14 +38,15 @@ export default function AboutSection() {
               WHO WE ARE
             </h2>
             <p className="mt-4 text-muted-foreground whitespace-pre-line">
-              {`Apex Solutions and Consult is a forward-thinking IT consulting firm dedicated to empowering and accelerating the growth of commercial enterprises. We partner with businesses of all sizes to deliver innovative, technology-driven solutions that enhance efficiency, strengthen online presence, and drive sustainable success.
-
-Our expertise spans a wide range of services, including IT consulting, mobile and web application development, enterprise software solutions, UI/UX design, and comprehensive QA & testing. We pride ourselves on creating intuitive, user-friendly interfaces that make our software seamless to navigate and highly effective for end users.
-
-Beyond technology development, we leverage social media strategies to boost brand visibility and create meaningful connections between businesses and their target audiences. Through our educational and training programs, we equip business teams—particularly in the small-scale sector—with practical skills and insights to fuel growth and competitiveness in today’s digital marketplace.
-
-At Apex Solutions and Consult, we don’t just provide services; we build partnerships that help transform visions into measurable results.`}
+              {isExpanded ? fullText : shortText}
             </p>
+            <Button
+              variant="link"
+              onClick={() => setIsExpanded(!isExpanded)}
+              className="px-0"
+            >
+              {isExpanded ? 'Read Less' : 'Read More...'}
+            </Button>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Card>
                 <CardContent className="p-4 flex items-center gap-4">
