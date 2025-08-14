@@ -201,7 +201,7 @@ export default function ServicesSection() {
         <div className="mt-16 text-center max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold font-headline">Our mission</h3>
             <p className="mt-4 text-muted-foreground">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                Empowering businesses and individuals with innovative, reliable, and user-focused technology solutions that drive growth, efficiency, and market impact. Through expert consulting, cutting-edge software development, training, and dedicated support, we aim to simplify complex challenges, enhance digital experiences, and position our clients for lasting success in a rapidly evolving technological landscape.
             </p>
         </div>
         <PartnersSection />
