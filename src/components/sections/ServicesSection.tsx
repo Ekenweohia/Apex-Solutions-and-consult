@@ -97,6 +97,9 @@ export default function ServicesSection() {
           <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
             WHAT WE OFFER
           </h2>
+          <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl">
+            Apex Solutions and Consult is a forward-thinking IT consulting firm dedicated to empowering and accelerating the growth of commercial enterprises. We partner with businesses of all sizes to deliver innovative, technology-driven solutions that enhance efficiency, strengthen online presence, and drive sustainable success.
+          </p>
         </div>
         <Tabs defaultValue="service" className="mt-8">
             <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto h-auto bg-muted rounded-lg p-1 shadow-inner">
