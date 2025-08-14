@@ -122,7 +122,6 @@ const industries = [
     { icon: <GraduationCap className="h-8 w-8 text-primary" />, name: 'EdTech', description: 'Innovative platforms for modern learning.' },
     { icon: <LandPlot className="h-8 w-8 text-primary" />, name: 'Real Estate', description: 'Solutions for property management and sales.' },
     { icon: <Bot className="h-8 w-8 text-primary" />, name: 'AI Solutions', description: 'Integrating AI to automate and innovate.' },
-    { icon: <Factory className="h-8 w-8 text-primary" />, name: 'Manufacturing', description: 'Optimizing production with smart technology.' },
     { icon: <Truck className="h-8 w-8 text-primary" />, name: 'Logistics & Supply Chain', description: 'Streamlining supply chain and delivery systems.' },
     { icon: <Plane className="h-8 w-8 text-primary" />, name: 'Travel & Hospitality', description: 'Enhancing customer experiences for travel.' },
     { icon: <Zap className="h-8 w-8 text-primary" />, name: 'Energy & Utilities', description: 'Powering the future with technology.' },
@@ -136,7 +135,7 @@ export default function ServicesSection() {
     <section id="services" className="py-12 sm:py-16">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
             WHAT WE OFFER
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-xl">
