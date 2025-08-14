@@ -50,7 +50,7 @@ const services = [
   {
     icon: <Cpu className="h-10 w-10 text-primary" />,
     title: 'QA & Testing',
-    description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    description: 'At Apex Solutions and Consult, every web and mobile application we create undergoes rigorous quality testing and validation. We ensure that each product meets the highest performance, security, and usability standards before reaching the market.',
     image: {
         src: "https://cdn.pixabay.com/photo/2022/10/04/21/25/xr-7499160_1280.jpg",
         alt: "QA & Testing",
