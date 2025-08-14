@@ -40,7 +40,7 @@ const services = [
   {
     icon: <Milestone className="h-10 w-10 text-primary" />,
     title: 'UX / UI Design',
-    description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    description: 'At Apex Solutions and Consult, we design with your target users in mind, crafting experiences that are both intuitive and engaging. Our approach ensures seamless functionality across all devices, delivering interfaces that are visually appealing, easy to navigate, and optimized for the best possible user experience.',
     image: {
         src: "https://cdn.pixabay.com/photo/2015/05/28/14/53/ux-788002_1280.jpg",
         alt: "UX / UI Design",
