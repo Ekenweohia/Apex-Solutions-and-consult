@@ -64,7 +64,7 @@ export default function ContactSection() {
                 Fill out the contact form and we'll get back to you immediately.
             </p>
         </div>
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        <div className="grid md:grid-cols-2 gap-12 items-start md:justify-center">
             <Card>
             <CardContent className="pt-6">
                 <Form {...form}>
