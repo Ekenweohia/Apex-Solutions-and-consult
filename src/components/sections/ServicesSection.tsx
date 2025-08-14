@@ -30,7 +30,7 @@ const services = [
     {
       icon: <GraduationCap className="h-10 w-10 text-primary" />,
     title: 'Training',
-    description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    description: 'With extensive experience delivering projects for businesses, government organizations, and individuals, we offer holistic, interactive IT training and consultancy. Our programs equip teams and professionals with the skills and insights to optimize processes, improve efficiency, and achieve their goals.',
     image: {
         src: "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg",
         alt: "Tech Training",
