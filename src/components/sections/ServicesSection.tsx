@@ -18,8 +18,8 @@ const services = [
   },
   {
     icon: <Smartphone className="h-10 w-10 text-primary" />,
-    title: 'Mobile App development',
-    description: 'Create complex enterprise software, ensure reliable software integration, modernise your legacy system.',
+    title: 'Application (Web/Mobile) Development',
+    description: 'We create cutting-edge web and mobile applications that enhance visibility, streamline operations, and elevate service delivery. Built for performance and scalability, our solutions help businesses thrive globally. We also provide ongoing monitoring and maintenance to keep your applications secure, efficient, and future-ready.',
     image: {
         src: "https://cdn.pixabay.com/photo/2018/11/28/11/03/coffee-3843382_1280.jpg",
         alt: "Mobile App Development",
