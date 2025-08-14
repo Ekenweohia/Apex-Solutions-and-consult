@@ -99,10 +99,10 @@ export default function ServicesSection() {
           </h2>
         </div>
         <Tabs defaultValue="service" className="mt-8">
-            <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto h-auto rounded-lg bg-gray-200 dark:bg-gray-800 p-1">
-                <TabsTrigger value="service" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-md">Service</TabsTrigger>
-                <TabsTrigger value="technology" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-md">Technology</TabsTrigger>
-                <TabsTrigger value="industry" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-md rounded-md">Industry</TabsTrigger>
+            <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto h-auto rounded-xl bg-muted p-2 shadow-lg">
+                <TabsTrigger value="service" className="data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-xl rounded-lg">Service</TabsTrigger>
+                <TabsTrigger value="technology" className="data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-xl rounded-lg">Technology</TabsTrigger>
+                <TabsTrigger value="industry" className="data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-xl rounded-lg">Industry</TabsTrigger>
             </TabsList>
             <TabsContent value="service">
                 <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
