@@ -80,8 +80,8 @@ const services = [
   },
   {
     icon: <Network className="h-10 w-10 text-primary" />,
-    title: 'Networking',
-    description: 'We design, implement, and manage secure and scalable network infrastructures. From local area networks to complex wide-area networks, we ensure reliable connectivity and performance for your business operations.',
+    title: 'Computer Networking',
+    description: 'Apex Solutions and Consult designs, implements, and manages secure, high-performance computer networks that keep your business connected. From LAN and WAN setup to wireless solutions and network security, we ensure reliable communication, efficient data flow, and seamless integration across your systems. Our networking solutions are built for scalability, stability, and optimal performance.',
     image: {
         src: "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?q=80&w=1920",
         alt: "Networking",
