@@ -54,7 +54,7 @@ export default function ContactSection() {
   }
 
   return (
-    <section id="contact" className="py-8 sm:py-12 bg-card">
+    <section id="contact" className="py-12 sm:py-16 bg-card">
       <div className="container">
         <div className="text-center mb-12">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -64,94 +64,96 @@ export default function ContactSection() {
                 Fill out the contact form and we'll get back to you immediately.
             </p>
         </div>
-        <div className="grid md:grid-cols-2 gap-12 items-start md:justify-center">
-            <Card>
-            <CardContent className="pt-6">
-                <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                    <FormField
-                    control={form.control}
-                    name="fullName"
-                    render={({ field }) => (
-                        <FormItem>
-                        <FormLabel>Full name</FormLabel>
-                        <FormControl>
-                            <Input placeholder="Your Full Name" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                        </FormItem>
-                    )}
-                    />
-                    <FormField
-                    control={form.control}
-                    name="email"
-                    render={({ field }) => (
-                        <FormItem>
-                        <FormLabel>Email</FormLabel>
-                        <FormControl>
-                            <Input placeholder="your.email@example.com" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                        </FormItem>
-                    )}
-                    />
-                    <FormField
+        <div className="grid grid-cols-1 gap-12 items-center justify-center">
+            <div className="md:w-3/4 lg:w-2/3 mx-auto">
+                <Card>
+                <CardContent className="pt-6">
+                    <Form {...form}>
+                    <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                        <FormField
                         control={form.control}
-                        name="service"
+                        name="fullName"
                         render={({ field }) => (
                             <FormItem>
-                            <FormLabel>Choose a service</FormLabel>
-                            <Select onValueChange={field.onChange} defaultValue={field.value}>
-                                <FormControl>
-                                <SelectTrigger>
-                                    <SelectValue placeholder="Select a service" />
-                                </SelectTrigger>
-                                </FormControl>
-                                <SelectContent>
-                                    <SelectItem value="enterprise-software">Enterprise Software Development</SelectItem>
-                                    <SelectItem value="mobile-app">Mobile App Development</SelectItem>
-                                    <SelectItem value="it-consulting">IT Consulting</SelectItem>
-                                    <SelectItem value="dedicated-team">Dedicated Development Team</SelectItem>
-                                    <SelectItem value="ux-ui-design">UX / UI Design</SelectItem>
-                                    <SelectItem value="qa-testing">QA & Testing</SelectItem>
-                                    <SelectItem value="cybersecurity">Cybersecurity</SelectItem>
-                                    <SelectItem value="computer-networking">Computer Networking</SelectItem>
-                                    <SelectItem value="cloud-based-solutions">CLOUD-BASED SOLUTIONS</SelectItem>
-                                    <SelectItem value="other">Other</SelectItem>
-                                </SelectContent>
-                            </Select>
+                            <FormLabel>Full name</FormLabel>
+                            <FormControl>
+                                <Input placeholder="Your Full Name" {...field} />
+                            </FormControl>
                             <FormMessage />
                             </FormItem>
                         )}
-                    />
-                    <FormField
-                    control={form.control}
-                    name="message"
-                    render={({ field }) => (
-                        <FormItem>
-                        <FormLabel>Send us a message</FormLabel>
-                        <FormControl>
-                            <Textarea placeholder="Tell us about your project..." {...field} />
-                        </FormControl>
-                        <FormMessage />
-                        </FormItem>
-                    )}
-                    />
-                    <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-                        <Button type="submit" disabled={form.formState.isSubmitting}>
-                        {form.formState.isSubmitting ? 'Preparing...' : 'GET A QUOTE'}
-                        <Send className="ml-2 h-4 w-4" />
-                        </Button>
-                        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                            <ShieldCheck className="h-5 w-5 text-primary"/>
-                            <span>We guarantee 100% confidentiality</span>
+                        />
+                        <FormField
+                        control={form.control}
+                        name="email"
+                        render={({ field }) => (
+                            <FormItem>
+                            <FormLabel>Email</FormLabel>
+                            <FormControl>
+                                <Input placeholder="your.email@example.com" {...field} />
+                            </FormControl>
+                            <FormMessage />
+                            </FormItem>
+                        )}
+                        />
+                        <FormField
+                            control={form.control}
+                            name="service"
+                            render={({ field }) => (
+                                <FormItem>
+                                <FormLabel>Choose a service</FormLabel>
+                                <Select onValueChange={field.onChange} defaultValue={field.value}>
+                                    <FormControl>
+                                    <SelectTrigger>
+                                        <SelectValue placeholder="Select a service" />
+                                    </SelectTrigger>
+                                    </FormControl>
+                                    <SelectContent>
+                                        <SelectItem value="enterprise-software">Enterprise Software Development</SelectItem>
+                                        <SelectItem value="mobile-app">Mobile App Development</SelectItem>
+                                        <SelectItem value="it-consulting">IT Consulting</SelectItem>
+                                        <SelectItem value="dedicated-team">Dedicated Development Team</SelectItem>
+                                        <SelectItem value="ux-ui-design">UX / UI Design</SelectItem>
+                                        <SelectItem value="qa-testing">QA & Testing</SelectItem>
+                                        <SelectItem value="cybersecurity">Cybersecurity</SelectItem>
+                                        <SelectItem value="computer-networking">Computer Networking</SelectItem>
+                                        <SelectItem value="cloud-based-solutions">CLOUD-BASED SOLUTIONS</SelectItem>
+                                        <SelectItem value="other">Other</SelectItem>
+                                    </SelectContent>
+                                </Select>
+                                <FormMessage />
+                                </FormItem>
+                            )}
+                        />
+                        <FormField
+                        control={form.control}
+                        name="message"
+                        render={({ field }) => (
+                            <FormItem>
+                            <FormLabel>Send us a message</FormLabel>
+                            <FormControl>
+                                <Textarea placeholder="Tell us about your project..." {...field} />
+                            </FormControl>
+                            <FormMessage />
+                            </FormItem>
+                        )}
+                        />
+                        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <Button type="submit" disabled={form.formState.isSubmitting}>
+                            {form.formState.isSubmitting ? 'Preparing...' : 'GET A QUOTE'}
+                            <Send className="ml-2 h-4 w-4" />
+                            </Button>
+                            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                                <ShieldCheck className="h-5 w-5 text-primary"/>
+                                <span>We guarantee 100% confidentiality</span>
+                            </div>
                         </div>
-                    </div>
-                </form>
-                </Form>
-            </CardContent>
-            </Card>
-            <div className="space-y-8 flex flex-col items-center text-center">
+                    </form>
+                    </Form>
+                </CardContent>
+                </Card>
+            </div>
+            <div className="space-y-8 flex flex-col items-center text-center mt-8">
                 <div>
                     <h3 className="text-xl font-bold font-headline mb-4">Contact Information</h3>
                     <div className="space-y-4 text-muted-foreground flex flex-col items-center">
