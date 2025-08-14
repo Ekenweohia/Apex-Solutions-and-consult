@@ -17,7 +17,7 @@ const fontHeadline = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: 'Apex Solutions and Consult - We build Digital products that power business',
-  description: 'Our aim is building innovate web and mobile application for our client to give them competitive advantage.',
+  description: 'Our goal is to develop innovative web and mobile applications that empower our clients with a distinct competitive advantage.',
 };
 
 export default function RootLayout({

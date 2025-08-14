@@ -17,7 +17,7 @@ export default function HeroSection() {
           We build Digital products that power business
         </h1>
         <p className="mt-4 max-w-[700px] mx-auto text-lg text-gray-200 md:text-xl">
-          Our aim is building innovate web and mobile application for our client to give them competitive advantage.
+          Our goal is to develop innovative web and mobile applications that empower our clients with a distinct competitive advantage.
         </p>
       </div>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
