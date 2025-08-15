@@ -52,7 +52,7 @@ export default function PermanentPartnersSection() {
                         width={160}
                         height={70}
                         style={{ objectFit: 'contain' }}
-                        className="transition-all"
+                        className="transition-all dark:invert"
                         data-ai-hint="company logo"
                       />
                     </div>
@@ -68,7 +68,7 @@ export default function PermanentPartnersSection() {
                   alt={permanentPartners[0].name}
                   fill
                   style={{ objectFit: 'contain' }}
-                  className="transition-all"
+                  className="transition-all dark:invert"
                   data-ai-hint="company logo"
                 />
               </div>
