@@ -43,7 +43,11 @@ export default function AboutSection() {
                   <div>
                     <h3 className="font-bold">WE PROVIDE TRAINING</h3>
                     <p className="text-muted-foreground text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    With extensive experience delivering projects for businesses, 
+                    government organizations, and individuals, 
+                    we offer holistic, interactive IT training and consultancy. 
+                    Our programs equip teams and professionals with the skills and insights to optimize processes, 
+                    improve efficiency, and achieve their goals.
                     </p>
                   </div>
                 </CardContent>
@@ -54,7 +58,11 @@ export default function AboutSection() {
                   <div>
                     <h3 className="font-bold">GENERAL IT CONSULTANCY</h3>
                     <p className="text-muted-foreground text-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    We leverage digital solutions to help you achieve your business goals, 
+                    providing strategic technology roadmaps that streamline processes and enhance efficiency. 
+                    Through our advisory and implementation services, we position your business for the visibility, 
+                    performance, 
+                    and success you envision.
                     </p>
                   </div>
                 </CardContent>
