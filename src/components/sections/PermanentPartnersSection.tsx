@@ -52,7 +52,7 @@ export default function PermanentPartnersSection() {
                         width={160}
                         height={70}
                         style={{ objectFit: 'contain' }}
-                        className="transition-all dark:invert"
+                        className="transition-all"
                         data-ai-hint="company logo"
                       />
                     </div>
@@ -62,13 +62,13 @@ export default function PermanentPartnersSection() {
             </Carousel>
           ) : permanentPartners.length === 1 ? (
             <div className="flex justify-center items-center">
-              <div className="relative w-64 h-32">
+              <div className="relative w-80 h-40">
                 <Image
                   src={permanentPartners[0].logoUrl}
                   alt={permanentPartners[0].name}
                   fill
                   style={{ objectFit: 'contain' }}
-                  className="transition-all dark:invert"
+                  className="transition-all"
                   data-ai-hint="company logo"
                 />
               </div>
