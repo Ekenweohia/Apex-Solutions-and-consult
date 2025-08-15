@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 
 export default function HeroSection() {
@@ -13,10 +14,10 @@ export default function HeroSection() {
         priority
       />
       <div className="relative z-10 p-4 max-w-4xl animate-fade-in-up">
-        <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl [text-shadow:2px_2px_4px_rgba(0,0,0,0.7)]">
           We build Digital products that power business
         </h1>
-        <p className="mt-4 max-w-[700px] mx-auto text-lg text-gray-200 md:text-xl">
+        <p className="mt-4 max-w-[700px] mx-auto text-lg text-gray-200 md:text-xl [text-shadow:1px_1px_3px_rgba(0,0,0,0.7)]">
           Our goal is to develop innovative web and mobile applications that empower our clients with a distinct competitive advantage.
         </p>
       </div>
