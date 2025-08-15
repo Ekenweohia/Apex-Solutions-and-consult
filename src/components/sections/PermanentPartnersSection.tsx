@@ -31,34 +31,49 @@ export default function PermanentPartnersSection() {
           </p>
         </div>
         <div className="mt-12">
-          <Carousel
-            plugins={[plugin.current]}
-            opts={{
-              align: 'start',
-              loop: true,
-            }}
-            className="w-full"
-            onMouseEnter={plugin.current.stop}
-            onMouseLeave={plugin.current.reset}
-          >
-            <CarouselContent>
-              {permanentPartners.map((partner, index) => (
-                <CarouselItem key={index} className="basis-1/2 md:basis-1/3 lg:basis-1/4">
-                  <div className="p-4 flex items-center justify-center h-28">
-                    <Image
-                      src={partner.logoUrl}
-                      alt={partner.name}
-                      width={160}
-                      height={70}
-                      style={{ objectFit: 'contain' }}
-                      className="transition-all"
-                      data-ai-hint="company logo"
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-          </Carousel>
+          {permanentPartners.length > 1 ? (
+            <Carousel
+              plugins={[plugin.current]}
+              opts={{
+                align: 'start',
+                loop: true,
+              }}
+              className="w-full"
+              onMouseEnter={plugin.current.stop}
+              onMouseLeave={plugin.current.reset}
+            >
+              <CarouselContent>
+                {permanentPartners.map((partner, index) => (
+                  <CarouselItem key={index} className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                    <div className="p-4 flex items-center justify-center h-28">
+                      <Image
+                        src={partner.logoUrl}
+                        alt={partner.name}
+                        width={160}
+                        height={70}
+                        style={{ objectFit: 'contain' }}
+                        className="transition-all"
+                        data-ai-hint="company logo"
+                      />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+            </Carousel>
+          ) : permanentPartners.length === 1 ? (
+            <div className="flex justify-center items-center">
+              <div className="relative w-64 h-32">
+                <Image
+                  src={permanentPartners[0].logoUrl}
+                  alt={permanentPartners[0].name}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  className="transition-all"
+                  data-ai-hint="company logo"
+                />
+              </div>
+            </div>
+          ) : null}
         </div>
       </div>
     </section>
