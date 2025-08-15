@@ -51,7 +51,11 @@ export default function Footer() {
               <button className="transition-colors hover:text-primary text-sm font-medium">Careers</button>
             </DialogTrigger>
             <DialogContent className="sm:max-w-[800px] h-[80vh] flex flex-col">
-                <CareersPage />
+              <DialogHeader>
+                <DialogTitle className="sr-only">Careers</DialogTitle>
+                <DialogDescription className="sr-only">Job openings at Apex Solutions and Consult.</DialogDescription>
+              </DialogHeader>
+              <CareersPage />
             </DialogContent>
           </Dialog>
         </nav>
