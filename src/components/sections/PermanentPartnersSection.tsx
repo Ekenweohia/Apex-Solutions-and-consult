@@ -14,7 +14,7 @@ export default function PermanentPartnersSection() {
         </div>
         <div className="mt-12 flex justify-center">
           <Image
-            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="/permanent-partner.png"
             alt="Strategic Alliance"
             width={1200}
             height={400}
