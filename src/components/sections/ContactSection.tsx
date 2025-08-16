@@ -65,7 +65,7 @@ export default function ContactSection() {
             </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
-            <div className="lg:col-span-3 lg:col-start-2">
+            <div className="lg:col-span-3">
                 <Card>
                 <CardContent className="pt-6">
                     <Form {...form}>
@@ -153,7 +153,7 @@ export default function ContactSection() {
                 </CardContent>
                 </Card>
             </div>
-            <div className="lg:col-span-2 space-y-4 flex flex-col items-center justify-center text-center -ml-8">
+            <div className="lg:col-span-2 space-y-4 flex flex-col items-center justify-center text-center">
                 <div>
                     <h3 className="text-xl font-bold font-headline mb-4">Contact Information</h3>
                     <div className="space-y-4 text-muted-foreground flex flex-col items-start">
