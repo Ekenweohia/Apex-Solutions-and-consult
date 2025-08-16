@@ -64,7 +64,7 @@ export default function ContactSection() {
                 Fill out the contact form and we'll get back to you immediately.
             </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
                 <Card>
                 <CardContent className="pt-6">
@@ -153,7 +153,7 @@ export default function ContactSection() {
                 </CardContent>
                 </Card>
             </div>
-            <div className="space-y-8 flex flex-col items-center justify-center text-center">
+            <div className="space-y-4 flex flex-col items-center justify-center text-center">
                 <div>
                     <h3 className="text-xl font-bold font-headline mb-4">Contact Information</h3>
                     <div className="space-y-4 text-muted-foreground flex flex-col items-center">
@@ -171,7 +171,7 @@ export default function ContactSection() {
                         </a>
                         <a href="https://www.google.com/maps/search/?api=1&query=Aiandi+11%2F3,+12915+Tallinn,+Estonia" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 hover:text-primary transition-colors">
                             <MapPin className="h-5 w-5 text-primary mt-1" />
-                            <span>Aiandi 11/3, Suit 1, 12915 Tallinn, Estonia</span>
+                            <span className="text-center">Aiandi 11/3, Suit 1, 12915 Tallinn, Estonia</span>
                         </a>
                     </div>
                 </div>
