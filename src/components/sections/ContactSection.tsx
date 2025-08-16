@@ -64,7 +64,7 @@ export default function ContactSection() {
                 Fill out the contact form and we'll get back to you immediately.
             </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
             <div className="lg:col-span-3">
                 <Card>
                 <CardContent className="pt-6">
@@ -153,8 +153,8 @@ export default function ContactSection() {
                 </CardContent>
                 </Card>
             </div>
-            <div className="lg:col-span-2 space-y-4 flex flex-col items-center justify-center text-center">
-                <div>
+            <div className="lg:col-span-2">
+                <div className="flex flex-col">
                     <h3 className="text-xl font-bold font-headline mb-4">Contact Information</h3>
                     <div className="space-y-4 text-muted-foreground flex flex-col items-start">
                         <a href="tel:+37253912814" className="flex items-center gap-4 hover:text-primary transition-colors">
