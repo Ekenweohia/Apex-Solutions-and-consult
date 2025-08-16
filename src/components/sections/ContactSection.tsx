@@ -64,7 +64,7 @@ export default function ContactSection() {
                 Fill out the contact form and we'll get back to you immediately.
             </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
             <div className="lg:col-span-3">
                 <Card>
                 <CardContent className="pt-6">
@@ -154,9 +154,9 @@ export default function ContactSection() {
                 </Card>
             </div>
             <div className="lg:col-span-2">
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center lg:items-start">
                     <h3 className="text-xl font-bold font-headline mb-4">Contact Information</h3>
-                    <div className="space-y-4 text-muted-foreground flex flex-col items-start">
+                    <div className="space-y-4 text-muted-foreground flex flex-col items-center lg:items-start">
                         <a href="tel:+37253912814" className="flex items-center gap-4 hover:text-primary transition-colors">
                             <Phone className="h-5 w-5 text-primary" />
                             <span>+372 (0) 53912814</span>
@@ -169,9 +169,9 @@ export default function ContactSection() {
                             <Mail className="h-5 w-5 text-primary" />
                             <span>info@apextech-solutions.com</span>
                         </a>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Aiandi+11%2F3,+12915+Tallinn,+Estonia" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 hover:text-primary transition-colors">
-                            <MapPin className="h-5 w-5 text-primary mt-1" />
-                            <span className="text-left">Aiandi 11/3, Suit 1, 12915 Tallinn, Estonia</span>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Aiandi+11%2F3,+12915+Tallinn,+Estonia" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 hover:text-primary transition-colors text-center lg:text-left">
+                            <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
+                            <span className="text-center lg:text-left">Aiandi 11/3, Suit 1, 12915 Tallinn, Estonia</span>
                         </a>
                     </div>
                 </div>
